@@ -1,0 +1,9 @@
+{
+  "name": "Pauls erste App – Security Intelligence",
+  "short_name": "Pauls App",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07101d",
+  "theme_color": "#07101d",
+  "lang": "de"
+}
