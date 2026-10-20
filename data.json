@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:36:28.790474+00:00",
+  "generated_at": "2026-10-20T00:22:13.653826+00:00",
   "items": [
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -82,6 +82,18 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+      "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+      "source": "BleepingComputer",
+      "published": "2026-10-19T21:49:48+00:00",
+      "category": "Breaches",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -181,18 +193,6 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-103849"
-    },
-    {
-      "title": "Burger King Japan data breach exposes 11 million customer records",
-      "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-      "source": "BleepingComputer",
-      "published": "2026-10-16T12:01:29+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
     },
     {
       "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
@@ -461,6 +461,18 @@
       "cve": null
     },
     {
+      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+      "summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+      "source": "BleepingComputer",
+      "published": "2026-10-19T21:24:51+00:00",
+      "category": "Malware",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Hackers hijack AOMEI update servers to secretly spread malware",
       "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.a [...]",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
@@ -677,20 +689,6 @@
       "source": "The Hacker News",
       "published": "2026-10-17T06:16:46+00:00",
       "category": "Breaches",
-      "technologies": [
-        "Microsoft 365"
-      ],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
-      "summary": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
-      "source": "BleepingComputer",
-      "published": "2026-10-16T13:50:59+00:00",
-      "category": "News",
       "technologies": [
         "Microsoft 365"
       ],
