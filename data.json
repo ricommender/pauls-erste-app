@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:44:34.127439+00:00",
+  "generated_at": "2026-10-22T04:50:16.011351+00:00",
   "items": [
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -405,6 +405,18 @@
       "cve": null
     },
     {
+      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+      "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+      "source": "BleepingComputer",
+      "published": "2026-10-21T22:16:26+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
       "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
@@ -721,18 +733,6 @@
       "source": "The Hacker News",
       "published": "2026-10-20T17:09:53+00:00",
       "category": "Breaches",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "DHS bans DeepSeek products across US federal civilian agencies",
-      "summary": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
-      "source": "BleepingComputer",
-      "published": "2026-10-20T14:19:05+00:00",
-      "category": "News",
       "technologies": [],
       "severity": "low",
       "kev": false,
