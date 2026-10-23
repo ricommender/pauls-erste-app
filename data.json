@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:09:58.939210+00:00",
+  "generated_at": "2026-10-23T21:26:07.061753+00:00",
   "items": [
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -62,6 +62,42 @@
       "technologies": [
         "Microsoft 365"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Abandoned Popcorn Time app exposed millions of device to RCE attacks",
+      "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+      "source": "BleepingComputer",
+      "published": "2026-10-23T20:55:05+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+      "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers. Ruby says any",
+      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "source": "The Hacker News",
+      "published": "2026-10-23T17:54:08+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
+      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "source": "The Hacker News",
+      "published": "2026-10-23T17:50:47+00:00",
+      "category": "Malware",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -235,18 +271,6 @@
       "cve": null
     },
     {
-      "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
-      "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-      "source": "BleepingComputer",
-      "published": "2026-10-22T08:27:11+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
       "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system. Each supported line has one fixed version:&nbsp;",
       "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
@@ -403,19 +427,35 @@
       "cve": null
     },
     {
-      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-      "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",
-      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-      "source": "The Hacker News",
-      "published": "2026-10-20T07:11:45+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "high",
+      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+      "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+      "source": "BleepingComputer",
+      "published": "2026-10-23T18:54:41+00:00",
+      "category": "Angriffswege",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "severity": "medium",
       "kev": false,
-      "cve": "CVE-2026-110936"
+      "cve": null
     },
     {
-      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
+      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+      "source": "The Hacker News",
+      "published": "2026-10-23T18:50:13+00:00",
+      "category": "Schwachstellen",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
       "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
       "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
       "source": "The Hacker News",
@@ -487,18 +527,6 @@
       "cve": null
     },
     {
-      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-      "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
-      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-      "source": "BleepingComputer",
-      "published": "2026-10-21T22:16:26+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
       "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the",
       "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
@@ -529,18 +557,6 @@
       "source": "The Hacker News",
       "published": "2026-10-21T10:32:40+00:00",
       "category": "Angriffswege",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-      "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says. They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
-      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-      "source": "The Hacker News",
-      "published": "2026-10-20T08:21:29+00:00",
-      "category": "Malware",
       "technologies": [],
       "severity": "medium",
       "kev": false,
@@ -792,18 +808,6 @@
       "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
       "source": "The Hacker News",
       "published": "2026-10-20T10:56:08+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-      "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets. In a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp",
-      "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-      "source": "The Hacker News",
-      "published": "2026-10-20T05:53:16+00:00",
       "category": "News",
       "technologies": [],
       "severity": "low",
