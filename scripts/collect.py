@@ -86,6 +86,27 @@ for i in sorted(items,key=lambda x:(rank[x["severity"]],bool(x["technologies"]),
  if key in seen:continue
  seen.add(key);out.append(i)
 out=out[:220]
+# FIRST EPSS is a probability estimate, not proof of exploitation.
+cves=sorted({i["cve"].upper() for i in out if i.get("cve") and re.fullmatch(r"CVE-\d{4}-\d{4,}",i["cve"],re.I)})
+epss={}
+epss_ok=False
+if cves:
+ try:
+  from urllib.parse import quote
+  for offset in range(0,len(cves),55):
+   subset=cves[offset:offset+55]
+   url="https://api.first.org/data/v1/epss?cve="+quote(",".join(subset),safe=",-")
+   for entry in json.loads(get(url)).get("data",[]):
+    epss[entry["cve"].upper()]=float(entry["epss"])
+  for i in out:
+   if i.get("cve") and i["cve"].upper() in epss:
+    i["epss"]=epss[i["cve"].upper()]
+  epss_ok=True
+ except Exception as exc:
+  print("WARNING FIRST EPSS:",type(exc).__name__,str(exc)[:150])
+sources.append({"name":"FIRST EPSS","url":"https://www.first.org/epss/","ok":epss_ok})
+if not any(s["ok"] for s in sources[:3]):
+ raise SystemExit("All news feeds failed. Refusing to overwrite the last successful dataset.")
 path=Path(__file__).resolve().parent.parent/"data.json"
 path.write_text(json.dumps({"generated_at":NOW.isoformat(),"items":out,"sources":sources},ensure_ascii=False,indent=2)+"\n",encoding="utf8")
 print(f"Saved {len(out)} records, {sum(x['ok'] for x in sources)} sources succeeded")
