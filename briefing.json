@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-10-24T11:04:11.972491+00:00",
+  "local_date": "24.10.2026",
+  "mode": "rules",
+  "lookback_days": 7,
+  "new_24h": 16,
+  "critical_24h": 1,
+  "kev_24h": 0,
+  "management": "In den vergangenen 24 Stunden wurden 16 Meldungen erfasst (1 als kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Meldungen der letzten sieben Tage sind priorisiert. Ob die eigene Infrastruktur betroffen ist, bleibt ohne Asset-Abgleich offen.",
+  "technical": "Hersteller-Advisories, vorhandene Exponierung und Patch-Status verifizieren. KEV-Einträge werden wegen dokumentierter Ausnutzung priorisiert; die übrige Kritikalität basiert auf Signalwörtern in den Nachrichten und ist zu prüfen.",
+  "actions": [
+    "Versionen, Exponierung und Patch-Status anhand des Hersteller-Advisory prüfen.",
+    "Identitätskontrollen, MFA, Logging und Detection Rules prüfen.",
+    "Relevanz für betroffene Produkte und Lieferanten prüfen."
+  ],
+  "highlights": [
+    {
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "published": "2026-10-24T06:25:57+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": "CVE-2026-110447",
+      "kev": false,
+      "epss": null,
+      "priority_score": 72.07250155555556,
+      "management": "Potenzielle Relevanz für übergreifende Sicherheitsrisiken. Interne Betroffenheit unbekannt.",
+      "technical": "Versionen, Exponierung und Patch-Status anhand des Hersteller-Advisory prüfen.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Machine speed attacks require machine speed detection and response",
+      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "published": "2026-10-22T14:02:12+00:00",
+      "severity": "high",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 66.99333488888888,
+      "management": "Potenzielle Relevanz für Microsoft 365. Interne Betroffenheit unbekannt.",
+      "technical": "Identitätskontrollen, MFA, Logging und Detection Rules prüfen.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "published": "2026-10-22T19:05:17+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 65.00361266666667,
+      "management": "Potenzielle Relevanz für übergreifende Sicherheitsrisiken. Interne Betroffenheit unbekannt.",
+      "technical": "Versionen, Exponierung und Patch-Status anhand des Hersteller-Advisory prüfen.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+      "published": "2026-10-23T18:54:41+00:00",
+      "severity": "medium",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 56.76827933333333,
+      "management": "Potenzielle Relevanz für Microsoft 365. Interne Betroffenheit unbekannt.",
+      "technical": "Identitätskontrollen, MFA, Logging und Detection Rules prüfen.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+      "published": "2026-10-23T18:50:13+00:00",
+      "severity": "medium",
+      "technologies": [
+        "Windows"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 56.75339044444445,
+      "management": "Potenzielle Relevanz für Windows. Interne Betroffenheit unbekannt.",
+      "technical": "Versionen, Exponierung und Patch-Status anhand des Hersteller-Advisory prüfen.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+      "published": "2026-10-23T17:05:07+00:00",
+      "severity": "low",
+      "technologies": [
+        "Windows"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 46.40305711111111,
+      "management": "Potenzielle Relevanz für Windows. Interne Betroffenheit unbekannt.",
+      "technical": "Versionen, Exponierung und Patch-Status anhand des Hersteller-Advisory prüfen.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "published": "2026-10-22T15:49:32+00:00",
+      "severity": "low",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 41.351112666666666,
+      "management": "Potenzielle Relevanz für Microsoft 365. Interne Betroffenheit unbekannt.",
+      "technical": "Relevanz für betroffene Produkte und Lieferanten prüfen.",
+      "source": "BleepingComputer"
+    }
+  ],
+  "source_status": [
+    {
+      "name": "CISA KEV",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "ok": true
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "ok": true
+    },
+    {
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "ok": true
+    }
+  ]
+}
