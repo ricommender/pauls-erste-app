@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate Python syntax
+        run: python -m py_compile scripts/collect.py scripts/briefing.py scripts/email_briefing.py
       - name: Fetch sources
         run: python scripts/collect.py
       - name: Commit data if changed
