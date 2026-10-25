@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T18:54:25.163178+00:00",
-  "local_date": "24.10.2026",
+  "generated_at": "2026-10-25T12:25:44.360190+00:00",
+  "local_date": "25.10.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 8,
-  "critical_24h": 1,
+  "new_24h": 2,
+  "critical_24h": 0,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 8 neue Meldungen erfasst (1 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 2 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
@@ -23,7 +23,7 @@
       "cve": "CVE-2026-110447",
       "kev": false,
       "epss": 0.02285,
-      "priority_score": 71,
+      "priority_score": 67,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -39,7 +39,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 65,
+      "priority_score": 62,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
       "source": "BleepingComputer"
@@ -53,7 +53,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 63,
+      "priority_score": 60,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -69,7 +69,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 55,
+      "priority_score": 52,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
       "source": "BleepingComputer"
@@ -85,7 +85,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 55,
+      "priority_score": 52,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -101,7 +101,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 45,
+      "priority_score": 41,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
@@ -117,7 +117,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 40,
+      "priority_score": 36,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "BleepingComputer"
