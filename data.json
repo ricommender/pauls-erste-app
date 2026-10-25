@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T04:43:56.178754+00:00",
+  "generated_at": "2026-10-25T11:33:27.668250+00:00",
   "items": [
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -76,6 +76,18 @@
       "technologies": [
         "Microsoft 365"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
+      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "source": "The Hacker News",
+      "published": "2026-10-25T06:54:29+00:00",
+      "category": "News",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -791,18 +803,6 @@
       "source": "The Hacker News",
       "published": "2026-10-20T17:09:53+00:00",
       "category": "Breaches",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-      "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19. The finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
-      "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-      "source": "The Hacker News",
-      "published": "2026-10-20T12:59:44+00:00",
-      "category": "Angriffswege",
       "technologies": [],
       "severity": "low",
       "kev": false,
