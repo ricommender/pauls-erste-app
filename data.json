@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:25:43.437912+00:00",
+  "generated_at": "2026-10-25T16:23:49.707470+00:00",
   "items": [
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -15,7 +15,7 @@
       "kev": true,
       "cve": "CVE-2026-96951",
       "vendor": "Microsoft",
-      "epss": 0.01512
+      "epss": 0.09813
     },
     {
       "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
@@ -28,7 +28,7 @@
       "severity": "critical",
       "kev": false,
       "cve": "CVE-2026-110447",
-      "epss": 0.02285
+      "epss": 0.12328
     },
     {
       "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
@@ -115,7 +115,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-111497",
-      "epss": 0.0071
+      "epss": 0.32782
     },
     {
       "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
@@ -236,7 +236,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-112900",
-      "epss": 0.00431
+      "epss": 0.01064
     },
     {
       "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
@@ -417,7 +417,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-96652",
-      "epss": 0.00455
+      "epss": 0.01821
     },
     {
       "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
@@ -430,7 +430,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-106173",
-      "epss": 0.00459
+      "epss": 0.00998
     },
     {
       "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
@@ -443,7 +443,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-0257",
-      "epss": 0.96895
+      "epss": 0.95012
     },
     {
       "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
@@ -520,7 +520,7 @@
       "severity": "medium",
       "kev": false,
       "cve": "CVE-2026-109618",
-      "epss": 0.11841
+      "epss": 0.99981
     },
     {
       "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
@@ -529,18 +529,6 @@
       "source": "BleepingComputer",
       "published": "2026-10-22T19:12:51+00:00",
       "category": "Malware",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
-      "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-      "source": "BleepingComputer",
-      "published": "2026-10-22T13:09:12+00:00",
-      "category": "Schwachstellen",
       "technologies": [],
       "severity": "medium",
       "kev": false,
@@ -660,6 +648,18 @@
       "technologies": [
         "VMware"
       ],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "source": "BleepingComputer",
+      "published": "2026-10-25T15:49:38+00:00",
+      "category": "News",
+      "technologies": [],
       "severity": "low",
       "kev": false,
       "cve": null
