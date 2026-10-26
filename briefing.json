@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-10-25T12:25:44.360190+00:00",
-  "local_date": "25.10.2026",
+  "generated_at": "2026-10-26T14:02:14.565069+00:00",
+  "local_date": "26.10.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 2,
+  "new_24h": 12,
   "critical_24h": 0,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 2 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 12 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
     "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
-    "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben."
+    "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten."
   ],
   "highlights": [
+    {
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "published": "2026-10-26T09:19:57+00:00",
+      "severity": "high",
+      "technologies": [],
+      "cve": "CVE-2026-109618",
+      "kev": false,
+      "epss": 0.99981,
+      "priority_score": 76,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "BleepingComputer"
+    },
     {
       "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
       "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
@@ -22,40 +36,42 @@
       "technologies": [],
       "cve": "CVE-2026-110447",
       "kev": false,
-      "epss": 0.02285,
-      "priority_score": 67,
+      "epss": 0.12328,
+      "priority_score": 65,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
     },
     {
-      "title": "Machine speed attacks require machine speed detection and response",
-      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-      "published": "2026-10-22T14:02:12+00:00",
-      "severity": "high",
+      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+      "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+      "published": "2026-10-26T11:23:56+00:00",
+      "severity": "medium",
       "technologies": [
         "Microsoft 365"
       ],
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 62,
+      "priority_score": 59,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
-      "source": "BleepingComputer"
+      "source": "The Hacker News"
     },
     {
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "published": "2026-10-22T19:05:17+00:00",
-      "severity": "critical",
-      "technologies": [],
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "published": "2026-10-26T08:35:51+00:00",
+      "severity": "medium",
+      "technologies": [
+        "Microsoft 365"
+      ],
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 60,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "priority_score": 59,
+      "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
       "source": "The Hacker News"
     },
     {
@@ -69,7 +85,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 52,
+      "priority_score": 47,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
       "source": "BleepingComputer"
@@ -85,7 +101,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 52,
+      "priority_score": 47,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -101,25 +117,9 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 41,
+      "priority_score": 36,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-      "published": "2026-10-22T15:49:32+00:00",
-      "severity": "low",
-      "technologies": [
-        "Microsoft 365"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 36,
-      "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "BleepingComputer"
     }
   ],

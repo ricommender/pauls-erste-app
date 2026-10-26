@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:06:30.586309+00:00",
+  "generated_at": "2026-10-26T14:02:13.703749+00:00",
   "items": [
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -43,18 +43,6 @@
       "cve": null
     },
     {
-      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-      "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "published": "2026-10-22T17:18:22+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "critical",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
       "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
       "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
@@ -63,6 +51,18 @@
       "category": "Schwachstellen",
       "technologies": [],
       "severity": "critical",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "summary": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
+      "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "source": "The Hacker News",
+      "published": "2026-10-26T11:52:41+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
       "kev": false,
       "cve": null
     },
@@ -636,6 +636,18 @@
       "cve": null
     },
     {
+      "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+      "summary": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+      "source": "BleepingComputer",
+      "published": "2026-10-26T13:56:44+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
       "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
       "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
@@ -773,18 +785,6 @@
       "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
       "source": "The Hacker News",
       "published": "2026-10-21T11:53:34+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-      "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services from the Chinese AI developer or its affiliates Homeland Security Secretary",
-      "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-      "source": "The Hacker News",
-      "published": "2026-10-21T08:04:17+00:00",
       "category": "News",
       "technologies": [],
       "severity": "low",
