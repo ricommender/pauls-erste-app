@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:49:56.711931+00:00",
+  "generated_at": "2026-10-26T13:06:30.586309+00:00",
   "items": [
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -67,18 +67,17 @@
       "cve": null
     },
     {
-      "title": "Machine speed attacks require machine speed detection and response",
-      "summary": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
       "source": "BleepingComputer",
-      "published": "2026-10-22T14:02:12+00:00",
-      "category": "Angriffswege",
-      "technologies": [
-        "Microsoft 365"
-      ],
+      "published": "2026-10-26T09:19:57+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
       "severity": "high",
       "kev": false,
-      "cve": null
+      "cve": "CVE-2026-109618",
+      "epss": 0.99981
     },
     {
       "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
@@ -106,7 +105,7 @@
     },
     {
       "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,",
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "source": "The Hacker News",
       "published": "2026-10-24T11:09:29+00:00",
@@ -407,30 +406,32 @@
       "cve": null
     },
     {
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
-      "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+      "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one coordinated view. SOC teams often first see the shape of an intrusion",
+      "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
       "source": "The Hacker News",
-      "published": "2026-10-21T07:26:49+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
+      "published": "2026-10-26T11:23:56+00:00",
+      "category": "Angriffswege",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "severity": "medium",
       "kev": false,
-      "cve": "CVE-2026-96652",
-      "epss": 0.01821
+      "cve": null
     },
     {
-      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
-      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
       "source": "The Hacker News",
-      "published": "2026-10-20T15:38:52+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
+      "published": "2026-10-26T08:35:51+00:00",
+      "category": "Breaches",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "severity": "medium",
       "kev": false,
-      "cve": "CVE-2026-106173",
-      "epss": 0.00998
+      "cve": null
     },
     {
       "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
@@ -456,6 +457,30 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to&nbsp;an analysis&nbsp;by cloud security company Wiz. A&nbsp;GitHub safeguard&nbsp;that pauses",
+      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "source": "The Hacker News",
+      "published": "2026-10-26T07:49:46+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder. The file",
+      "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "source": "The Hacker News",
+      "published": "2026-10-26T06:03:48+00:00",
+      "category": "Malware",
+      "technologies": [],
       "severity": "medium",
       "kev": false,
       "cve": null
@@ -507,19 +532,6 @@
       "severity": "medium",
       "kev": false,
       "cve": null
-    },
-    {
-      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-      "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
-      "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-      "source": "The Hacker News",
-      "published": "2026-10-23T07:40:45+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": "CVE-2026-109618",
-      "epss": 0.99981
     },
     {
       "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
@@ -596,20 +608,6 @@
       "cve": null
     },
     {
-      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
-      "summary": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-      "source": "BleepingComputer",
-      "published": "2026-10-22T15:49:32+00:00",
-      "category": "News",
-      "technologies": [
-        "Microsoft 365"
-      ],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
       "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access. Anomaly, the company behind OpenCode, fixed the flaw in&nbsp;version 1.18.33&nbsp;on September",
       "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
@@ -638,15 +636,25 @@
       "cve": null
     },
     {
-      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-      "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be active since at least 2020, the group has a track record of striking industrial",
-      "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
-      "source": "The Hacker News",
-      "published": "2026-10-21T06:05:15+00:00",
+      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+      "source": "BleepingComputer",
+      "published": "2026-10-26T10:26:52+00:00",
       "category": "News",
-      "technologies": [
-        "VMware"
-      ],
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app. The kit's Telegram part matches Baohuo, a backdoor that Doctor",
+      "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "source": "The Hacker News",
+      "published": "2026-10-26T09:54:02+00:00",
+      "category": "News",
+      "technologies": [],
       "severity": "low",
       "kev": false,
       "cve": null
@@ -778,30 +786,6 @@
       "source": "The Hacker News",
       "published": "2026-10-21T08:04:17+00:00",
       "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
-      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-      "source": "The Hacker News",
-      "published": "2026-10-21T07:44:22+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-      "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the",
-      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-      "source": "The Hacker News",
-      "published": "2026-10-20T17:09:53+00:00",
-      "category": "Breaches",
       "technologies": [],
       "severity": "low",
       "kev": false,
