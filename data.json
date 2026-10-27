@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:22:52.733642+00:00",
+  "generated_at": "2026-10-27T22:15:31.170107+00:00",
   "items": [
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -107,6 +107,42 @@
       "cve": null
     },
     {
+      "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+      "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T22:07:34+00:00",
+      "category": "Malware",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Hackers hijack Convertr analytics script to steal payment card data",
+      "summary": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T20:57:25+00:00",
+      "category": "Breaches",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T16:15:39+00:00",
+      "category": "Breaches",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
       "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
@@ -117,6 +153,19 @@
       "severity": "high",
       "kev": false,
       "cve": null
+    },
+    {
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in",
+      "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "source": "The Hacker News",
+      "published": "2026-10-27T13:59:09+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2026-86950",
+      "epss": 0.26166
     },
     {
       "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
@@ -362,30 +411,6 @@
       "cve": null
     },
     {
-      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-      "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
-      "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-      "source": "The Hacker News",
-      "published": "2026-10-22T06:38:31+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-      "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-      "source": "The Hacker News",
-      "published": "2026-10-22T04:21:26+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
       "summary": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
@@ -437,6 +462,18 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published",
+      "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+      "source": "The Hacker News",
+      "published": "2026-10-27T18:26:46+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
       "severity": "medium",
       "kev": false,
       "cve": null
@@ -574,14 +611,16 @@
       "cve": null
     },
     {
-      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,",
-      "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-      "source": "The Hacker News",
-      "published": "2026-10-22T06:34:10+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "medium",
+      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+      "summary": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T18:20:28+00:00",
+      "category": "Breaches",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "low",
       "kev": false,
       "cve": null
     },
@@ -615,6 +654,18 @@
       "cve": null
     },
     {
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
+      "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "source": "The Hacker News",
+      "published": "2026-10-27T13:59:48+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
       "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as&nbsp;an encrypted item&nbsp;the user cannot read. The method got past",
       "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
@@ -632,42 +683,6 @@
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
       "source": "BleepingComputer",
       "published": "2026-10-26T20:46:49+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-      "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-      "source": "BleepingComputer",
-      "published": "2026-10-26T14:00:10+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
-      "summary": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
-      "source": "BleepingComputer",
-      "published": "2026-10-26T13:56:44+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-      "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
-      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-      "source": "BleepingComputer",
-      "published": "2026-10-26T10:26:52+00:00",
       "category": "News",
       "technologies": [],
       "severity": "low",
