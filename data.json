@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:04:16.448084+00:00",
+  "generated_at": "2026-10-27T15:22:52.733642+00:00",
   "items": [
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -64,7 +64,7 @@
       "severity": "critical",
       "kev": false,
       "cve": "CVE-2026-110447",
-      "epss": 0.12328
+      "epss": 0.11634
     },
     {
       "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
@@ -107,6 +107,18 @@
       "cve": null
     },
     {
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T14:09:46+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
       "summary": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
       "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
@@ -141,7 +153,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-109618",
-      "epss": 0.99981
+      "epss": 0.99999
     },
     {
       "title": "University of Copenhagen data breach exposes data of 525,000 people",
@@ -216,18 +228,6 @@
       "cve": null
     },
     {
-      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-      "source": "BleepingComputer",
-      "published": "2026-10-24T14:17:32+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
       "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,",
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
@@ -238,7 +238,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-111497",
-      "epss": 0.36027
+      "epss": 0.55483
     },
     {
       "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
@@ -382,6 +382,20 @@
       "category": "Breaches",
       "technologies": [],
       "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "summary": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T14:01:11+00:00",
+      "category": "Breaches",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "severity": "medium",
       "kev": false,
       "cve": null
     },
@@ -584,7 +598,7 @@
       "severity": "low",
       "kev": false,
       "cve": "CVE-2026-80097",
-      "epss": 0.00442
+      "epss": 0.00534
     },
     {
       "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
@@ -666,18 +680,6 @@
       "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
       "source": "The Hacker News",
       "published": "2026-10-26T09:54:02+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-      "source": "BleepingComputer",
-      "published": "2026-10-25T15:49:38+00:00",
       "category": "News",
       "technologies": [],
       "severity": "low",
