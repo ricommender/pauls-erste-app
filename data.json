@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T20:16:51.858829+00:00",
+  "generated_at": "2026-10-29T00:59:07.772954+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -109,6 +109,18 @@
       "technologies": [
         "Microsoft 365"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+      "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+      "source": "BleepingComputer",
+      "published": "2026-10-28T20:47:22+00:00",
+      "category": "News",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -290,18 +302,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
       "source": "BleepingComputer",
       "published": "2026-10-27T20:57:25+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-      "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T16:15:39+00:00",
       "category": "Breaches",
       "technologies": [],
       "severity": "high",
