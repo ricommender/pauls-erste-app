@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:59:59.517663+00:00",
+  "generated_at": "2026-10-29T14:00:39.324625+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -34,6 +34,30 @@
       "epss": 0.09813
     },
     {
+      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T11:10:13+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "critical",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
+      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+      "source": "The Hacker News",
+      "published": "2026-10-29T10:44:46+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "critical",
+      "kev": false,
+      "cve": "CVE-2026-76418"
+    },
+    {
       "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
       "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
       "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
@@ -57,19 +81,6 @@
       "kev": false,
       "cve": "CVE-2026-101767",
       "epss": 0.00614
-    },
-    {
-      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity vulnerabilities are listed below - CVE-2026-110447 (CVSS score: 9.2) - An operating",
-      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-      "source": "The Hacker News",
-      "published": "2026-10-24T06:25:57+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "critical",
-      "kev": false,
-      "cve": "CVE-2026-110447",
-      "epss": 0.11634
     },
     {
       "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
@@ -112,6 +123,19 @@
       "severity": "high",
       "kev": false,
       "cve": null
+    },
+    {
+      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;released a fix, Alpine Linux&nbsp;said&nbsp;on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
+      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+      "source": "The Hacker News",
+      "published": "2026-10-29T09:05:39+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2026-97229",
+      "epss": 0.18427
     },
     {
       "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
@@ -297,30 +321,6 @@
       "cve": null
     },
     {
-      "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-      "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T22:07:34+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Hackers hijack Convertr analytics script to steal payment card data",
-      "summary": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T20:57:25+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
       "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in",
       "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
@@ -383,26 +383,16 @@
       "cve": null
     },
     {
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers. Ruby says any",
-      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or",
+      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
       "source": "The Hacker News",
-      "published": "2026-10-23T17:54:08+00:00",
+      "published": "2026-10-29T11:39:41+00:00",
       "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
-      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "source": "The Hacker News",
-      "published": "2026-10-23T17:50:47+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "high",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "severity": "medium",
       "kev": false,
       "cve": null
     },
@@ -463,15 +453,25 @@
       "cve": null
     },
     {
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
-      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-      "source": "The Hacker News",
-      "published": "2026-10-23T18:50:13+00:00",
+      "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T13:59:48+00:00",
       "category": "Schwachstellen",
-      "technologies": [
-        "Windows"
-      ],
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+      "summary": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29. The flaw can be triggered in every version from",
+      "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+      "source": "The Hacker News",
+      "published": "2026-10-29T11:39:18+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
       "severity": "medium",
       "kev": false,
       "cve": null
@@ -657,14 +657,16 @@
       "cve": null
     },
     {
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
-      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "source": "The Hacker News",
-      "published": "2026-10-24T11:03:33+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "medium",
+      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+      "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T12:00:07+00:00",
+      "category": "News",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "low",
       "kev": false,
       "cve": null
     },
@@ -675,20 +677,6 @@
       "source": "The Hacker News",
       "published": "2026-10-28T16:23:34+00:00",
       "category": "News",
-      "technologies": [
-        "Windows"
-      ],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-      "summary": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T18:20:28+00:00",
-      "category": "Breaches",
       "technologies": [
         "Windows"
       ],
@@ -710,6 +698,42 @@
       "kev": false,
       "cve": "CVE-2026-80097",
       "epss": 0.00534
+    },
+    {
+      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+      "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",
+      "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+      "source": "The Hacker News",
+      "published": "2026-10-29T11:33:41+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by",
+      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+      "source": "The Hacker News",
+      "published": "2026-10-29T11:33:15+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+      "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. \"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said. The feature, which currently supports only npm packages, is available in public preview",
+      "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+      "source": "The Hacker News",
+      "published": "2026-10-29T10:26:33+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
     },
     {
       "title": "Discord to let search engines index public server messages",
@@ -778,30 +802,6 @@
       "source": "The Hacker News",
       "published": "2026-10-26T09:54:02+00:00",
       "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
-      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-      "source": "The Hacker News",
-      "published": "2026-10-24T10:36:33+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was",
-      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-      "source": "The Hacker News",
-      "published": "2026-10-24T09:04:24+00:00",
-      "category": "Malware",
       "technologies": [],
       "severity": "low",
       "kev": false,
