@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:00:39.324625+00:00",
+  "generated_at": "2026-10-29T18:29:30.065194+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -15,7 +15,7 @@
       "kev": true,
       "cve": "CVE-2026-41709",
       "vendor": "Broadcom",
-      "epss": 0.00297
+      "epss": 0.00764
     },
     {
       "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
@@ -55,7 +55,8 @@
       "technologies": [],
       "severity": "critical",
       "kev": false,
-      "cve": "CVE-2026-76418"
+      "cve": "CVE-2026-76418",
+      "epss": 0.00574
     },
     {
       "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
@@ -120,6 +121,18 @@
       "technologies": [
         "Microsoft 365"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+      "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
+      "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+      "source": "The Hacker News",
+      "published": "2026-10-29T13:42:40+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -271,18 +284,6 @@
       "cve": null
     },
     {
-      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-      "summary": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-      "source": "BleepingComputer",
-      "published": "2026-10-28T09:43:15+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
       "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
       "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
@@ -306,19 +307,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-111497",
-      "epss": 0.87988
-    },
-    {
-      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-      "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T23:35:51+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
+      "epss": 0.82641
     },
     {
       "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
@@ -365,18 +354,6 @@
       "source": "The Hacker News",
       "published": "2026-10-26T11:52:41+00:00",
       "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
-      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "source": "The Hacker News",
-      "published": "2026-10-25T06:54:29+00:00",
-      "category": "News",
       "technologies": [],
       "severity": "high",
       "kev": false,
@@ -448,6 +425,31 @@
       "technologies": [
         "Microsoft 365"
       ],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+      "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "source": "The Hacker News",
+      "published": "2026-10-29T15:57:05+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": "CVE-2026-98432",
+      "epss": 0.00388
+    },
+    {
+      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+      "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
+      "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+      "source": "The Hacker News",
+      "published": "2026-10-29T15:20:29+00:00",
+      "category": "Malware",
+      "technologies": [],
       "severity": "medium",
       "kev": false,
       "cve": null
@@ -645,14 +647,16 @@
       "cve": null
     },
     {
-      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-      "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
-      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-      "source": "The Hacker News",
-      "published": "2026-10-25T17:19:46+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "medium",
+      "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+      "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T14:35:40+00:00",
+      "category": "News",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "low",
       "kev": false,
       "cve": null
     },
@@ -698,6 +702,30 @@
       "kev": false,
       "cve": "CVE-2026-80097",
       "epss": 0.00534
+    },
+    {
+      "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
+      "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Yahoo. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T16:10:31+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "3 Ways AI Agents Already Operate in Your Browser",
+      "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T14:00:10+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
     },
     {
       "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
@@ -753,18 +781,6 @@
       "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
       "source": "The Hacker News",
       "published": "2026-10-28T07:37:50+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-      "summary": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T22:43:27+00:00",
       "category": "News",
       "technologies": [],
       "severity": "low",
