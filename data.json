@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T01:01:54.418579+00:00",
+  "generated_at": "2026-10-30T10:03:33.495698+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -32,6 +32,19 @@
       "cve": "CVE-2026-96951",
       "vendor": "Microsoft",
       "epss": 0.09813
+    },
+    {
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "source": "The Hacker News",
+      "published": "2026-10-30T07:27:05+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "critical",
+      "kev": false,
+      "cve": "CVE-2026-97229",
+      "epss": 0.18427
     },
     {
       "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
@@ -126,6 +139,30 @@
       "cve": null
     },
     {
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
+      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "source": "The Hacker News",
+      "published": "2026-10-30T07:45:30+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2026-118539"
+    },
+    {
+      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&nbsp; Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The",
+      "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "source": "The Hacker News",
+      "published": "2026-10-30T04:14:59+00:00",
+      "category": "Breaches",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Binance probes potential $5.8 billion crypto-theft hack",
       "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
@@ -184,19 +221,6 @@
       "severity": "high",
       "kev": false,
       "cve": null
-    },
-    {
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;released a fix, Alpine Linux&nbsp;said&nbsp;on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
-      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "source": "The Hacker News",
-      "published": "2026-10-29T09:05:39+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": "CVE-2026-97229",
-      "epss": 0.18427
     },
     {
       "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
@@ -370,20 +394,6 @@
       "source": "The Hacker News",
       "published": "2026-10-26T11:23:56+00:00",
       "category": "Angriffswege",
-      "technologies": [
-        "Microsoft 365"
-      ],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-      "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
-      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-      "source": "The Hacker News",
-      "published": "2026-10-26T08:35:51+00:00",
-      "category": "Breaches",
       "technologies": [
         "Microsoft 365"
       ],
@@ -598,30 +608,6 @@
       "cve": null
     },
     {
-      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-      "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to&nbsp;an analysis&nbsp;by cloud security company Wiz. A&nbsp;GitHub safeguard&nbsp;that pauses",
-      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-      "source": "The Hacker News",
-      "published": "2026-10-26T07:49:46+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder. The file",
-      "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-      "source": "The Hacker News",
-      "published": "2026-10-26T06:03:48+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
       "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
@@ -677,6 +663,18 @@
       "kev": false,
       "cve": "CVE-2026-80097",
       "epss": 0.00534
+    },
+    {
+      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "source": "BleepingComputer",
+      "published": "2026-10-30T09:18:13+00:00",
+      "category": "Breaches",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
     },
     {
       "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
@@ -756,18 +754,6 @@
       "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
       "source": "The Hacker News",
       "published": "2026-10-29T10:26:33+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Discord to let search engines index public server messages",
-      "summary": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
-      "source": "BleepingComputer",
-      "published": "2026-10-28T18:44:16+00:00",
       "category": "News",
       "technologies": [],
       "severity": "low",
