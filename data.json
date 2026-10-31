@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:34:15.632926+00:00",
+  "generated_at": "2026-10-31T13:28:04.918400+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -108,6 +108,18 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "source": "BleepingComputer",
+      "published": "2026-10-31T12:50:09+00:00",
+      "category": "Breaches",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -471,19 +483,6 @@
       "cve": null
     },
     {
-      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-      "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-      "source": "BleepingComputer",
-      "published": "2026-10-29T18:38:26+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": "CVE-2026-20127",
-      "epss": 0.89294
-    },
-    {
       "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
       "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
       "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
@@ -672,6 +671,18 @@
       "epss": 0.00534
     },
     {
+      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+      "summary": "[...]",
+      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+      "source": "BleepingComputer",
+      "published": "2026-10-31T13:10:19+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
       "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
@@ -737,18 +748,6 @@
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
       "source": "BleepingComputer",
       "published": "2026-10-29T23:35:52+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-      "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-      "source": "BleepingComputer",
-      "published": "2026-10-29T19:23:41+00:00",
       "category": "News",
       "technologies": [],
       "severity": "low",
