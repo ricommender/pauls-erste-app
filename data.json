@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T14:09:46.228921+00:00",
+  "generated_at": "2026-11-01T19:42:03.786597+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -108,6 +108,18 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "source": "BleepingComputer",
+      "published": "2026-11-01T15:11:21+00:00",
+      "category": "Breaches",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -736,18 +748,6 @@
       "source": "The Hacker News",
       "published": "2026-10-30T08:55:47+00:00",
       "category": "Malware",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-      "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-      "source": "BleepingComputer",
-      "published": "2026-10-29T23:35:52+00:00",
-      "category": "News",
       "technologies": [],
       "severity": "low",
       "kev": false,
