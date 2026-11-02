@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:46:18.698955+00:00",
+  "generated_at": "2026-11-02T11:11:27.584985+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -108,6 +108,18 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+      "summary": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+      "source": "BleepingComputer",
+      "published": "2026-11-02T09:33:26+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -227,18 +239,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
       "source": "BleepingComputer",
       "published": "2026-10-30T13:00:32+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-      "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "published": "2026-10-30T10:16:07+00:00",
       "category": "Schwachstellen",
       "technologies": [],
       "severity": "high",
@@ -370,17 +370,18 @@
       "epss": 0.82641
     },
     {
-      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-      "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in",
-      "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;",
+      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
       "source": "The Hacker News",
-      "published": "2026-10-27T13:59:09+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
+      "published": "2026-11-02T05:51:07+00:00",
+      "category": "Malware",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "medium",
       "kev": false,
-      "cve": "CVE-2026-86950",
-      "epss": 0.26166
+      "cve": null
     },
     {
       "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
@@ -683,7 +684,7 @@
     },
     {
       "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI),",
       "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
       "source": "The Hacker News",
       "published": "2026-11-01T07:03:00+00:00",
