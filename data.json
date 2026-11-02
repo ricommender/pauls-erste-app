@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T19:42:03.786597+00:00",
+  "generated_at": "2026-11-02T00:46:18.698955+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -425,6 +425,18 @@
       "cve": null
     },
     {
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "source": "BleepingComputer",
+      "published": "2026-11-01T19:57:53+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
       "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
@@ -724,18 +736,6 @@
       "source": "The Hacker News",
       "published": "2026-10-30T10:40:45+00:00",
       "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-      "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-      "source": "BleepingComputer",
-      "published": "2026-10-30T09:18:13+00:00",
-      "category": "Breaches",
       "technologies": [],
       "severity": "low",
       "kev": false,
