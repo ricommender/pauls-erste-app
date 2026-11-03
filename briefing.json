@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-02T16:55:40.277991+00:00",
-  "local_date": "02.11.2026",
+  "generated_at": "2026-11-03T14:56:24.754745+00:00",
+  "local_date": "03.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 15,
-  "critical_24h": 1,
+  "new_24h": 19,
+  "critical_24h": 0,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 15 neue Meldungen erfasst (1 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 19 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Assets und Versionen zu CVE-2026-41709 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
@@ -26,7 +26,7 @@
       "cve": "CVE-2026-41709",
       "kev": true,
       "epss": 0.00689,
-      "priority_score": 97,
+      "priority_score": 94,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft. Laut CISA KEV als ausgenutzt geführt.",
       "technical": "Betroffene Assets und Versionen zu CVE-2026-41709 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
       "source": "CISA KEV"
@@ -42,7 +42,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 75,
+      "priority_score": 71,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
@@ -56,7 +56,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 72,
+      "priority_score": 68,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
@@ -69,8 +69,8 @@
       "technologies": [],
       "cve": "CVE-2026-97229",
       "kev": false,
-      "epss": 0.273,
-      "priority_score": 63,
+      "epss": 0.27692,
+      "priority_score": 58,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -86,7 +86,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 61,
+      "priority_score": 56,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
@@ -103,7 +103,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 59,
+      "priority_score": 54,
       "management": "Potenzielle Relevanz für Microsoft 365, Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
       "source": "The Hacker News"
@@ -119,7 +119,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 58,
+      "priority_score": 53,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
       "source": "The Hacker News"
