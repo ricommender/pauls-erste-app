@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T21:43:15.774919+00:00",
+  "generated_at": "2026-11-03T06:50:12.689288+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -123,6 +123,19 @@
       "severity": "high",
       "kev": false,
       "cve": null
+    },
+    {
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "source": "The Hacker News",
+      "published": "2026-11-03T05:34:41+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2026-58115",
+      "epss": 0.00953
     },
     {
       "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
@@ -437,18 +450,17 @@
       "cve": null
     },
     {
-      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-      "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
-      "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+      "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
+      "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
       "source": "The Hacker News",
-      "published": "2026-10-28T08:15:07+00:00",
+      "published": "2026-11-03T05:34:37+00:00",
       "category": "Schwachstellen",
-      "technologies": [
-        "Windows"
-      ],
+      "technologies": [],
       "severity": "medium",
       "kev": false,
-      "cve": null
+      "cve": "CVE-2026-81648",
+      "epss": 0.00498
     },
     {
       "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
@@ -626,18 +638,6 @@
       "source": "The Hacker News",
       "published": "2026-10-28T11:30:00+00:00",
       "category": "Angriffswege",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-      "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
-      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
-      "source": "The Hacker News",
-      "published": "2026-10-28T10:30:00+00:00",
-      "category": "Breaches",
       "technologies": [],
       "severity": "medium",
       "kev": false,
