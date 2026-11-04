@@ -1,35 +1,33 @@
 {
-  "generated_at": "2026-11-03T14:56:24.754745+00:00",
-  "local_date": "03.11.2026",
+  "generated_at": "2026-11-04T15:16:20.215381+00:00",
+  "local_date": "04.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 19,
-  "critical_24h": 0,
+  "new_24h": 23,
+  "critical_24h": 1,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 19 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 23 neue Meldungen erfasst (1 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
-    "Betroffene Assets und Versionen zu CVE-2026-41709 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
-    "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-    "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen."
+    "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
+    "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
+    "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden."
   ],
   "highlights": [
     {
-      "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-28T12:00:00+00:00",
+      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+      "published": "2026-11-04T12:11:05+00:00",
       "severity": "critical",
-      "technologies": [
-        "VMware"
-      ],
-      "cve": "CVE-2026-41709",
-      "kev": true,
-      "epss": 0.00689,
-      "priority_score": 94,
-      "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft. Laut CISA KEV als ausgenutzt geführt.",
-      "technical": "Betroffene Assets und Versionen zu CVE-2026-41709 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
-      "source": "CISA KEV"
+      "technologies": [],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 72,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "BleepingComputer"
     },
     {
       "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
@@ -42,24 +40,10 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 71,
+      "priority_score": 66,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
-    },
-    {
-      "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-      "published": "2026-11-02T12:47:00+00:00",
-      "severity": "critical",
-      "technologies": [],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 68,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "BleepingComputer"
     },
     {
       "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
@@ -69,8 +53,8 @@
       "technologies": [],
       "cve": "CVE-2026-97229",
       "kev": false,
-      "epss": 0.27692,
-      "priority_score": 58,
+      "epss": 0.6522,
+      "priority_score": 63,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -86,7 +70,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 56,
+      "priority_score": 51,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
@@ -103,9 +87,25 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 54,
+      "priority_score": 50,
       "management": "Potenzielle Relevanz für Microsoft 365, Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "published": "2026-11-04T11:24:31+00:00",
+      "severity": "low",
+      "technologies": [
+        "Windows"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 49,
+      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
     },
     {
@@ -119,7 +119,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 53,
+      "priority_score": 49,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
       "source": "The Hacker News"
