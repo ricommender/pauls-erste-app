@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:40:52.392852+00:00",
+  "generated_at": "2026-11-05T06:50:24.097411+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -58,19 +58,6 @@
       "cve": null
     },
     {
-      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
-      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-      "source": "The Hacker News",
-      "published": "2026-10-30T07:27:05+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "critical",
-      "kev": false,
-      "cve": "CVE-2026-97229",
-      "epss": 0.6522
-    },
-    {
       "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
       "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the",
       "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
@@ -97,6 +84,19 @@
       "severity": "high",
       "kev": false,
       "cve": null
+    },
+    {
+      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "source": "The Hacker News",
+      "published": "2026-11-05T05:17:04+00:00",
+      "category": "Malware",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2024-27834",
+      "epss": 0.00598
     },
     {
       "title": "Vercel rolls out new protection against stolen session cookie attacks",
@@ -356,19 +356,6 @@
       "cve": null
     },
     {
-      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-      "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
-      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-      "source": "The Hacker News",
-      "published": "2026-10-30T07:45:30+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": "CVE-2026-118539",
-      "epss": 0.00305
-    },
-    {
       "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
       "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company",
       "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
@@ -407,6 +394,18 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "source": "The Hacker News",
+      "published": "2026-11-05T04:31:16+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
       "severity": "medium",
       "kev": false,
       "cve": null
@@ -498,7 +497,7 @@
     },
     {
       "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
+      "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
       "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
       "source": "The Hacker News",
       "published": "2026-11-04T14:27:52+00:00",
