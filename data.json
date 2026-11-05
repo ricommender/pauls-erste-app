@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:25:27.750324+00:00",
+  "generated_at": "2026-11-05T23:39:19.986208+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -58,18 +58,6 @@
       "cve": null
     },
     {
-      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "published": "2026-11-04T12:11:05+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "critical",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
       "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the",
       "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
@@ -79,6 +67,30 @@
       "technologies": [
         "Microsoft 365"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
+      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "source": "The Hacker News",
+      "published": "2026-11-05T16:42:46+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections. \"The flaw could enable silent chat data theft, phishing,",
+      "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "source": "The Hacker News",
+      "published": "2026-11-05T16:42:32+00:00",
+      "category": "Breaches",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -433,6 +445,30 @@
       "cve": null
     },
     {
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "source": "BleepingComputer",
+      "published": "2026-11-05T21:30:30+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+      "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+      "source": "BleepingComputer",
+      "published": "2026-11-05T17:45:29+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Hackers backdoor Linux servers using trojanized CWP web server",
       "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
@@ -554,18 +590,6 @@
       "cve": null
     },
     {
-      "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-      "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-      "source": "BleepingComputer",
-      "published": "2026-11-04T14:42:25+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
       "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
       "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
@@ -584,18 +608,6 @@
       "source": "The Hacker News",
       "published": "2026-11-04T11:46:27+00:00",
       "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-      "summary": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-      "source": "BleepingComputer",
-      "published": "2026-11-04T09:39:54+00:00",
-      "category": "Breaches",
       "technologies": [],
       "severity": "medium",
       "kev": false,
@@ -664,30 +676,6 @@
       "cve": null
     },
     {
-      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
-      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-      "source": "The Hacker News",
-      "published": "2026-10-31T04:56:12+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
-      "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-      "source": "The Hacker News",
-      "published": "2026-10-30T16:58:44+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
       "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
       "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
@@ -697,6 +685,30 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+      "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+      "source": "BleepingComputer",
+      "published": "2026-11-05T20:15:08+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+      "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+      "source": "BleepingComputer",
+      "published": "2026-11-05T19:24:26+00:00",
+      "category": "News",
+      "technologies": [],
       "severity": "low",
       "kev": false,
       "cve": null
@@ -720,18 +732,6 @@
       "source": "The Hacker News",
       "published": "2026-11-04T16:06:43+00:00",
       "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "US charges two Canadians accused of hacking US universities",
-      "summary": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-      "source": "BleepingComputer",
-      "published": "2026-11-04T13:13:20+00:00",
-      "category": "Breaches",
       "technologies": [],
       "severity": "low",
       "kev": false,
