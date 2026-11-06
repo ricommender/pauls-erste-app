@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T23:39:19.986208+00:00",
+  "generated_at": "2026-11-06T06:49:53.277223+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -445,6 +445,18 @@
       "cve": null
     },
     {
+      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+      "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+      "source": "BleepingComputer",
+      "published": "2026-11-06T00:56:44+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
       "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
@@ -571,18 +583,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
       "source": "BleepingComputer",
       "published": "2026-11-04T16:00:18+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-      "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-      "source": "BleepingComputer",
-      "published": "2026-11-04T15:00:10+00:00",
       "category": "Angriffswege",
       "technologies": [],
       "severity": "medium",
