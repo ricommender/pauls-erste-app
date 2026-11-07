@@ -1,18 +1,16 @@
 {
-  "generated_at": "2026-11-06T14:52:43.241356+00:00",
-  "local_date": "06.11.2026",
+  "generated_at": "2026-11-07T13:48:57.108249+00:00",
+  "local_date": "07.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 19,
-  "critical_24h": 0,
+  "new_24h": 12,
+  "critical_24h": 1,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 19 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 12 neue Meldungen erfasst (1 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-    "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
-    "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
-    "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen."
+    "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben."
   ],
   "highlights": [
     {
@@ -26,8 +24,22 @@
       "cve": "CVE-2026-83844",
       "kev": false,
       "epss": 0.00734,
-      "priority_score": 75,
+      "priority_score": 71,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "published": "2026-11-06T16:08:38+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 69,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
     },
@@ -40,24 +52,10 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 67,
+      "priority_score": 62,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
-    },
-    {
-      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-      "published": "2026-11-04T20:58:19+00:00",
-      "severity": "critical",
-      "technologies": [],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 65,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
-      "source": "BleepingComputer"
     },
     {
       "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
@@ -70,7 +68,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 56,
+      "priority_score": 52,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
@@ -86,42 +84,9 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 40,
+      "priority_score": 35,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-      "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-      "published": "2026-11-02T11:08:45+00:00",
-      "severity": "medium",
-      "technologies": [
-        "Microsoft 365",
-        "Windows"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 40,
-      "management": "Potenzielle Relevanz für Microsoft 365, Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-      "published": "2026-11-02T05:51:07+00:00",
-      "severity": "medium",
-      "technologies": [
-        "Windows"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 39,
-      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
       "source": "The Hacker News"
     }
   ],
