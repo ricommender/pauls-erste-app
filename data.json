@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T05:59:58.107268+00:00",
+  "generated_at": "2026-11-07T13:04:36.478414+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -416,21 +416,6 @@
       "cve": null
     },
     {
-      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-      "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company",
-      "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-      "source": "The Hacker News",
-      "published": "2026-11-02T11:08:45+00:00",
-      "category": "Angriffswege",
-      "technologies": [
-        "Microsoft 365",
-        "Windows"
-      ],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
       "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
@@ -684,6 +669,18 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "source": "The Hacker News",
+      "published": "2026-11-07T06:44:17+00:00",
+      "category": "News",
+      "technologies": [],
       "severity": "low",
       "kev": false,
       "cve": null
