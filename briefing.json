@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-07T13:48:57.108249+00:00",
-  "local_date": "07.11.2026",
+  "generated_at": "2026-11-08T14:09:58.902094+00:00",
+  "local_date": "08.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 12,
-  "critical_24h": 1,
+  "new_24h": 2,
+  "critical_24h": 0,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 12 neue Meldungen erfasst (1 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 2 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
@@ -24,7 +24,7 @@
       "cve": "CVE-2026-83844",
       "kev": false,
       "epss": 0.00734,
-      "priority_score": 71,
+      "priority_score": 66,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -38,7 +38,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 69,
+      "priority_score": 64,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -52,7 +52,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 62,
+      "priority_score": 57,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -68,7 +68,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 52,
+      "priority_score": 48,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
@@ -84,7 +84,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 35,
+      "priority_score": 30,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
