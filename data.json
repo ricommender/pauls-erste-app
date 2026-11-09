@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T22:07:49.078971+00:00",
+  "generated_at": "2026-11-09T06:34:17.239069+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -73,18 +73,17 @@
       "epss": 0.00384
     },
     {
-      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-      "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the",
-      "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+      "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
+      "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
       "source": "The Hacker News",
-      "published": "2026-11-02T11:30:00+00:00",
-      "category": "News",
-      "technologies": [
-        "Microsoft 365"
-      ],
+      "published": "2026-11-09T06:05:24+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
       "severity": "high",
       "kev": false,
-      "cve": null
+      "cve": "CVE-2026-19868",
+      "epss": 0.00621
     },
     {
       "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
