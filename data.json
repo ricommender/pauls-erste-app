@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:55:51.513799+00:00",
+  "generated_at": "2026-11-10T15:28:25.639707+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -109,6 +109,18 @@
       "kev": false,
       "cve": "CVE-2026-83844",
       "epss": 0.00384
+    },
+    {
+      "title": "Ransomware recovery is now a client retention metric",
+      "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+      "source": "BleepingComputer",
+      "published": "2026-11-10T15:01:11+00:00",
+      "category": "Malware",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
     },
     {
       "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
@@ -690,18 +702,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
       "source": "BleepingComputer",
       "published": "2026-11-09T15:05:15+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
-      "summary": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
-      "source": "BleepingComputer",
-      "published": "2026-11-09T14:34:03+00:00",
       "category": "News",
       "technologies": [],
       "severity": "low",

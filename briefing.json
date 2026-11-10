@@ -1,19 +1,79 @@
 {
-  "generated_at": "2026-11-09T17:18:29.906908+00:00",
-  "local_date": "09.11.2026",
+  "generated_at": "2026-11-10T15:28:26.867393+00:00",
+  "local_date": "10.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 15,
-  "critical_24h": 0,
+  "new_24h": 26,
+  "critical_24h": 2,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 15 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 26 neue Meldungen erfasst (2 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
+    "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-    "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
     "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben."
   ],
   "highlights": [
+    {
+      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+      "published": "2026-11-10T10:04:32+00:00",
+      "severity": "high",
+      "technologies": [
+        "Windows"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 75,
+      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+      "published": "2026-11-10T08:51:25+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 72,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+      "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+      "published": "2026-11-10T06:52:54+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": "CVE-2026-125350",
+      "kev": false,
+      "epss": null,
+      "priority_score": 71,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+      "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+      "published": "2026-11-10T10:07:29+00:00",
+      "severity": "medium",
+      "technologies": [
+        "Windows"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 59,
+      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
+      "source": "The Hacker News"
+    },
     {
       "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
       "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
@@ -25,38 +85,10 @@
       "cve": "CVE-2026-83844",
       "kev": false,
       "epss": 0.00384,
-      "priority_score": 61,
+      "priority_score": 56,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
-    },
-    {
-      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-      "published": "2026-11-06T16:08:38+00:00",
-      "severity": "critical",
-      "technologies": [],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 58,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Binance denies data breach after alleged ShinyHunters claims",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-      "published": "2026-11-09T16:12:39+00:00",
-      "severity": "high",
-      "technologies": [],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 57,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
-      "source": "BleepingComputer"
     },
     {
       "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
@@ -69,7 +101,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 25,
+      "priority_score": 22,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
