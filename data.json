@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:18:47.454686+00:00",
+  "generated_at": "2026-11-11T06:25:54.536676+00:00",
   "items": [
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
@@ -32,6 +32,19 @@
       "cve": "CVE-2026-96951",
       "vendor": "Microsoft",
       "epss": 0.09813
+    },
+    {
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "source": "The Hacker News",
+      "published": "2026-11-11T06:04:02+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "critical",
+      "kev": false,
+      "cve": "CVE-2026-20320",
+      "epss": 0.00385
     },
     {
       "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
@@ -83,7 +96,7 @@
     },
     {
       "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-      "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after",
+      "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), has&nbsp;been described as a use-after-free bug in the XML component. \"Use-after-free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker",
       "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
       "source": "The Hacker News",
       "published": "2026-11-10T06:52:54+00:00",
@@ -145,6 +158,18 @@
       "kev": false,
       "cve": "CVE-2026-83844",
       "epss": 0.00384
+    },
+    {
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "source": "BleepingComputer",
+      "published": "2026-11-10T22:20:19+00:00",
+      "category": "Breaches",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
     },
     {
       "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
@@ -299,18 +324,6 @@
       "source": "BleepingComputer",
       "published": "2026-11-09T23:52:12+00:00",
       "category": "Malware",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-      "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-      "source": "BleepingComputer",
-      "published": "2026-11-09T22:09:33+00:00",
-      "category": "Breaches",
       "technologies": [],
       "severity": "high",
       "kev": false,
@@ -733,19 +746,6 @@
       "severity": "medium",
       "kev": false,
       "cve": null
-    },
-    {
-      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-      "source": "The Hacker News",
-      "published": "2026-11-04T17:00:38+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": "CVE-2026-109593",
-      "epss": 0.00521
     },
     {
       "title": "Beyond the Alert: The Case for Rich Network Data",
