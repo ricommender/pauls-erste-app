@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:12:36.527271+00:00",
+  "generated_at": "2026-11-13T19:44:28.605366+00:00",
   "items": [
     {
       "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
@@ -180,6 +180,19 @@
       "cve": null
     },
     {
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "source": "The Hacker News",
+      "published": "2026-11-13T16:53:08+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2026-6460",
+      "epss": 0.0059
+    },
+    {
       "title": "How one AI agent exposed five critical enterprise security gaps",
       "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
@@ -259,18 +272,6 @@
       "source": "BleepingComputer",
       "published": "2026-11-12T15:07:20+00:00",
       "category": "Malware",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-      "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-      "source": "BleepingComputer",
-      "published": "2026-11-12T14:36:47+00:00",
-      "category": "Breaches",
       "technologies": [],
       "severity": "high",
       "kev": false,
@@ -401,29 +402,18 @@
       "cve": null
     },
     {
-      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-      "summary": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the",
-      "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-      "source": "The Hacker News",
-      "published": "2026-11-10T06:44:36+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
+      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+      "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+      "source": "BleepingComputer",
+      "published": "2026-11-13T16:21:43+00:00",
+      "category": "Malware",
+      "technologies": [
+        "VMware"
+      ],
+      "severity": "medium",
       "kev": false,
       "cve": null
-    },
-    {
-      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-      "source": "The Hacker News",
-      "published": "2026-11-10T06:31:42+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": "CVE-2026-123218",
-      "epss": 0.00535
     },
     {
       "title": "Microsoft confirms Windows activation failures after November updates",
@@ -468,20 +458,6 @@
       "cve": null
     },
     {
-      "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-      "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-      "source": "BleepingComputer",
-      "published": "2026-11-12T12:11:11+00:00",
-      "category": "Schwachstellen",
-      "technologies": [
-        "Windows"
-      ],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
       "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for",
       "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
@@ -491,6 +467,42 @@
       "technologies": [
         "Windows"
       ],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+      "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "source": "BleepingComputer",
+      "published": "2026-11-13T19:38:36+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "German military drone operations disrupted by cyberattack",
+      "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+      "source": "BleepingComputer",
+      "published": "2026-11-13T17:31:56+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
+      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "source": "The Hacker News",
+      "published": "2026-11-13T15:27:05+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
       "severity": "medium",
       "kev": false,
       "cve": null
@@ -549,18 +561,6 @@
       "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
       "source": "The Hacker News",
       "published": "2026-11-12T15:15:40+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-      "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-      "source": "BleepingComputer",
-      "published": "2026-11-12T15:00:10+00:00",
       "category": "Malware",
       "technologies": [],
       "severity": "medium",
