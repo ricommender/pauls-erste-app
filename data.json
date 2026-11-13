@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:56:08.456038+00:00",
+  "generated_at": "2026-11-13T01:50:49.819293+00:00",
   "items": [
     {
       "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
@@ -303,42 +303,6 @@
       "cve": null
     },
     {
-      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-      "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-      "source": "BleepingComputer",
-      "published": "2026-11-11T20:54:20+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-      "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-      "source": "BleepingComputer",
-      "published": "2026-11-11T16:24:18+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-      "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-      "source": "BleepingComputer",
-      "published": "2026-11-11T15:12:59+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
       "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company builds and runs apps for its customers and stores their secrets, such as API keys and database",
       "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
@@ -539,6 +503,30 @@
       "cve": null
     },
     {
+      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+      "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "source": "BleepingComputer",
+      "published": "2026-11-12T22:53:10+00:00",
+      "category": "Malware",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+      "summary": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "source": "BleepingComputer",
+      "published": "2026-11-12T22:25:30+00:00",
+      "category": "Malware",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
       "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while",
       "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
@@ -715,6 +703,20 @@
       "category": "Malware",
       "technologies": [],
       "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "source": "BleepingComputer",
+      "published": "2026-11-12T20:15:16+00:00",
+      "category": "News",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "severity": "low",
       "kev": false,
       "cve": null
     },
