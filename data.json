@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:00:03.577671+00:00",
+  "generated_at": "2026-11-14T18:05:22.420811+00:00",
   "items": [
     {
       "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
@@ -7,20 +7,6 @@
       "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
       "source": "The Hacker News",
       "published": "2026-11-12T17:50:27+00:00",
-      "category": "Schwachstellen",
-      "technologies": [
-        "Windows"
-      ],
-      "severity": "critical",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-      "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-      "source": "BleepingComputer",
-      "published": "2026-11-12T16:04:00+00:00",
       "category": "Schwachstellen",
       "technologies": [
         "Windows"
@@ -167,6 +153,18 @@
       "cve": null
     },
     {
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "source": "BleepingComputer",
+      "published": "2026-11-14T17:27:25+00:00",
+      "category": "Breaches",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
       "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
@@ -177,7 +175,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-114713",
-      "epss": 0.00302
+      "epss": 0.00508
     },
     {
       "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
@@ -266,18 +264,6 @@
       "epss": 0.00289
     },
     {
-      "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-      "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-      "source": "BleepingComputer",
-      "published": "2026-11-12T15:07:20+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
       "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
       "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
@@ -301,7 +287,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-118383",
-      "epss": 0.00714
+      "epss": 0.00737
     },
     {
       "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
@@ -314,7 +300,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-119618",
-      "epss": 0.00408
+      "epss": 0.0133
     },
     {
       "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
@@ -723,6 +709,18 @@
       "technologies": [
         "Microsoft 365"
       ],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "source": "BleepingComputer",
+      "published": "2026-11-14T15:15:49+00:00",
+      "category": "Malware",
+      "technologies": [],
       "severity": "low",
       "kev": false,
       "cve": null
