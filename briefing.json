@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-13T15:12:37.793393+00:00",
-  "local_date": "13.11.2026",
+  "generated_at": "2026-11-14T14:00:04.590090+00:00",
+  "local_date": "14.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 24,
-  "critical_24h": 4,
+  "new_24h": 8,
+  "critical_24h": 0,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 24 neue Meldungen erfasst (4 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 8 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
@@ -24,7 +24,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 88,
+      "priority_score": 83,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -40,7 +40,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 87,
+      "priority_score": 83,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
@@ -56,7 +56,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 71,
+      "priority_score": 66,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -70,7 +70,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 69,
+      "priority_score": 65,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
       "source": "BleepingComputer"
@@ -84,7 +84,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 69,
+      "priority_score": 64,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
@@ -100,7 +100,7 @@
       "cve": "CVE-2026-108186",
       "kev": false,
       "epss": 0.00407,
-      "priority_score": 67,
+      "priority_score": 62,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -116,7 +116,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 65,
+      "priority_score": 60,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
