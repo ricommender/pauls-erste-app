@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-11-14T14:00:04.590090+00:00",
-  "local_date": "14.11.2026",
+  "generated_at": "2026-11-15T14:36:29.776648+00:00",
+  "local_date": "15.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 8,
+  "new_24h": 4,
   "critical_24h": 0,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 8 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 4 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-    "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten."
+    "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
+    "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden."
   ],
   "highlights": [
     {
@@ -24,26 +25,10 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 83,
+      "priority_score": 78,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
-    },
-    {
-      "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-      "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-      "published": "2026-11-12T16:04:00+00:00",
-      "severity": "critical",
-      "technologies": [
-        "Windows"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 83,
-      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "BleepingComputer"
     },
     {
       "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
@@ -56,7 +41,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 66,
+      "priority_score": 61,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -70,7 +55,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 65,
+      "priority_score": 60,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
       "source": "BleepingComputer"
@@ -84,7 +69,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 64,
+      "priority_score": 60,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
@@ -100,7 +85,7 @@
       "cve": "CVE-2026-108186",
       "kev": false,
       "epss": 0.00407,
-      "priority_score": 62,
+      "priority_score": 57,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -116,10 +101,26 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 60,
+      "priority_score": 56,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+      "published": "2026-11-13T16:21:43+00:00",
+      "severity": "medium",
+      "technologies": [
+        "VMware"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 51,
+      "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
+      "source": "BleepingComputer"
     }
   ],
   "source_status": [
