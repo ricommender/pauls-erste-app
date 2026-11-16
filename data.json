@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T16:51:58.014828+00:00",
+  "generated_at": "2026-11-16T19:37:27.835407+00:00",
   "items": [
     {
       "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
@@ -366,14 +366,16 @@
       "epss": 0.84478
     },
     {
-      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-      "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\" In a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
-      "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
       "source": "The Hacker News",
-      "published": "2026-11-10T15:33:59+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
+      "published": "2026-11-16T13:27:20+00:00",
+      "category": "Malware",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "medium",
       "kev": false,
       "cve": null
     },
@@ -410,6 +412,18 @@
       "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
       "source": "BleepingComputer",
+      "published": "2026-11-16T14:00:00+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
+      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "source": "The Hacker News",
       "published": "2026-11-16T14:00:00+00:00",
       "category": "Schwachstellen",
       "technologies": [],
@@ -632,18 +646,6 @@
       "severity": "medium",
       "kev": false,
       "cve": "CVE-2026-111760"
-    },
-    {
-      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-      "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
-      "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-      "source": "The Hacker News",
-      "published": "2026-11-10T15:58:44+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
     },
     {
       "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
