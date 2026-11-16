@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-15T14:36:29.776648+00:00",
-  "local_date": "15.11.2026",
+  "generated_at": "2026-11-16T16:51:59.051540+00:00",
+  "local_date": "16.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 4,
+  "new_24h": 15,
   "critical_24h": 0,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 4 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 15 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
     "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
-    "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden."
+    "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben."
   ],
   "highlights": [
     {
@@ -25,75 +25,59 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 78,
+      "priority_score": 73,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
     },
     {
-      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-      "published": "2026-11-12T11:51:43+00:00",
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "published": "2026-11-15T18:29:53+00:00",
       "severity": "high",
       "technologies": [
-        "Windows"
+        "Microsoft 365"
       ],
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 61,
-      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "The Hacker News"
+      "priority_score": 72,
+      "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
+      "source": "BleepingComputer"
     },
     {
-      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-      "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-      "published": "2026-11-12T19:51:16+00:00",
-      "severity": "critical",
+      "title": "Fandango says hackers stole payment card details from checkout pages",
+      "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+      "published": "2026-11-16T15:44:21+00:00",
+      "severity": "high",
       "technologies": [],
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 60,
+      "priority_score": 57,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
       "source": "BleepingComputer"
     },
     {
-      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-      "published": "2026-11-12T19:12:55+00:00",
-      "severity": "critical",
+      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+      "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+      "published": "2026-11-16T15:01:11+00:00",
+      "severity": "high",
       "technologies": [],
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 60,
+      "priority_score": 57,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
       "source": "BleepingComputer"
     },
     {
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-      "published": "2026-11-11T16:12:46+00:00",
-      "severity": "high",
-      "technologies": [
-        "Windows"
-      ],
-      "cve": "CVE-2026-108186",
-      "kev": false,
-      "epss": 0.00407,
-      "priority_score": 57,
-      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-      "published": "2026-11-11T08:17:53+00:00",
+      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "published": "2026-11-12T11:51:43+00:00",
       "severity": "high",
       "technologies": [
         "Windows"
@@ -107,19 +91,35 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-      "published": "2026-11-13T16:21:43+00:00",
-      "severity": "medium",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "published": "2026-11-11T16:12:46+00:00",
+      "severity": "high",
       "technologies": [
-        "VMware"
+        "Windows"
+      ],
+      "cve": "CVE-2026-108186",
+      "kev": false,
+      "epss": 0.00407,
+      "priority_score": 52,
+      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+      "published": "2026-11-16T16:43:24+00:00",
+      "severity": "low",
+      "technologies": [
+        "Microsoft 365"
       ],
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 51,
-      "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
+      "priority_score": 50,
+      "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "BleepingComputer"
     }
   ],
