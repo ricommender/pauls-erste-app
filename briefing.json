@@ -1,20 +1,33 @@
 {
-  "generated_at": "2026-11-17T16:46:36.164640+00:00",
-  "local_date": "17.11.2026",
+  "generated_at": "2026-11-18T16:18:32.299149+00:00",
+  "local_date": "18.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 18,
-  "critical_24h": 0,
+  "new_24h": 20,
+  "critical_24h": 1,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 18 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 20 neue Meldungen erfasst (1 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
     "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
-    "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
-    "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben."
+    "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden."
   ],
   "highlights": [
+    {
+      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "published": "2026-11-17T23:04:21+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 70,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "BleepingComputer"
+    },
     {
       "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
       "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
@@ -26,8 +39,54 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 68,
+      "priority_score": 64,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+      "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+      "published": "2026-11-18T12:28:30+00:00",
+      "severity": "medium",
+      "technologies": [
+        "Windows"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 59,
+      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+      "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+      "published": "2026-11-18T11:03:57+00:00",
+      "severity": "medium",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 59,
+      "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+      "published": "2026-11-18T12:15:00+00:00",
+      "severity": "high",
+      "technologies": [],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 56,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
     },
@@ -42,36 +101,8 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 60,
+      "priority_score": 55,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "published": "2026-11-17T12:25:06+00:00",
-      "severity": "high",
-      "technologies": [],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 56,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-      "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-      "published": "2026-11-17T09:44:22+00:00",
-      "severity": "high",
-      "technologies": [],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 56,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
       "source": "BleepingComputer"
     },
@@ -86,42 +117,10 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 55,
+      "priority_score": 50,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
       "source": "The Hacker News"
-    },
-    {
-      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-      "published": "2026-11-12T11:51:43+00:00",
-      "severity": "high",
-      "technologies": [
-        "Windows"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 51,
-      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-      "published": "2026-11-17T11:19:51+00:00",
-      "severity": "low",
-      "technologies": [
-        "Windows"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 49,
-      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
-      "source": "BleepingComputer"
     }
   ],
   "source_status": [
