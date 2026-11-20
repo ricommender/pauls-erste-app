@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-19T20:39:31.153397+00:00",
+  "generated_at": "2026-11-20T02:20:33.161259+00:00",
   "items": [
+    {
+      "title": "VMware patches vCenter zero-day exploited in attacks since September",
+      "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "source": "BleepingComputer",
+      "published": "2026-11-20T00:26:25+00:00",
+      "category": "Schwachstellen",
+      "technologies": [
+        "VMware"
+      ],
+      "severity": "critical",
+      "kev": false,
+      "cve": null
+    },
     {
       "title": "CVE-2026-41709: Broadcom VMware ESX – Broadcom VMWare ESX Insufficient Logging Vulnerability",
       "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged. Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if ",
@@ -55,6 +69,18 @@
       "technologies": [
         "VMware"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+      "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+      "source": "BleepingComputer",
+      "published": "2026-11-19T21:15:59+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -289,18 +315,6 @@
       "kev": false,
       "cve": "CVE-2026-114938",
       "epss": 0.00753
-    },
-    {
-      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-      "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "published": "2026-11-18T10:35:05+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
     },
     {
       "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
@@ -543,18 +557,6 @@
       "cve": null
     },
     {
-      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-      "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent social engineering threats. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-      "source": "BleepingComputer",
-      "published": "2026-11-18T15:00:10+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
       "summary": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report shared with The Hacker News. \"A file hash changes with every recompile, a domain costs a few",
       "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
@@ -701,6 +703,18 @@
       "cve": null
     },
     {
+      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+      "summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+      "source": "BleepingComputer",
+      "published": "2026-11-19T22:25:42+00:00",
+      "category": "News",
+      "technologies": [],
+      "severity": "low",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
       "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
@@ -719,18 +733,6 @@
       "source": "BleepingComputer",
       "published": "2026-11-18T16:58:42+00:00",
       "category": "Breaches",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-      "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-      "source": "BleepingComputer",
-      "published": "2026-11-18T11:50:25+00:00",
-      "category": "News",
       "technologies": [],
       "severity": "low",
       "kev": false,
