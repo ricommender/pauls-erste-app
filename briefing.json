@@ -1,21 +1,82 @@
 {
-  "generated_at": "2026-11-19T16:26:39.561018+00:00",
-  "local_date": "19.11.2026",
+  "generated_at": "2026-11-20T15:58:15.664515+00:00",
+  "local_date": "20.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 22,
-  "critical_24h": 1,
+  "new_24h": 20,
+  "critical_24h": 3,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 22 neue Meldungen erfasst (1 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 20 neue Meldungen erfasst (3 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
-    "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-    "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden."
+    "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen."
   ],
   "highlights": [
     {
-      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "published": "2026-11-20T09:38:15+00:00",
+      "severity": "critical",
+      "technologies": [
+        "VMware"
+      ],
+      "cve": "CVE-2026-123890",
+      "kev": false,
+      "epss": 0.00843,
+      "priority_score": 91,
+      "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "VMware patches vCenter zero-day exploited in attacks since September",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "published": "2026-11-20T00:26:25+00:00",
+      "severity": "critical",
+      "technologies": [
+        "VMware"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 89,
+      "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "published": "2026-11-20T05:30:01+00:00",
+      "severity": "high",
+      "technologies": [
+        "Windows"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 74,
+      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+      "published": "2026-11-20T10:57:43+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 72,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
       "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
       "published": "2026-11-19T15:11:06+00:00",
       "severity": "high",
@@ -25,9 +86,9 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 76,
+      "priority_score": 71,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
     },
     {
@@ -39,40 +100,10 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 73,
+      "priority_score": 68,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
-    },
-    {
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "published": "2026-11-19T11:52:23+00:00",
-      "severity": "medium",
-      "technologies": [],
-      "cve": "CVE-2026-109618",
-      "kev": false,
-      "epss": 0.99999,
-      "priority_score": 60,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Microsoft confirms app installation, launch issues after hotpatch",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
-      "published": "2026-11-19T10:35:05+00:00",
-      "severity": "medium",
-      "technologies": [
-        "Windows"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 59,
-      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "BleepingComputer"
     },
     {
       "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
@@ -85,41 +116,9 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 54,
+      "priority_score": 50,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Identitätskontrollen, MFA, Logging, Detection Rules und relevante Angriffsflächen auf mögliche Lücken prüfen.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-      "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
-      "published": "2026-11-18T11:03:57+00:00",
-      "severity": "medium",
-      "technologies": [
-        "Microsoft 365"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 54,
-      "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-      "published": "2026-11-16T13:27:20+00:00",
-      "severity": "medium",
-      "technologies": [
-        "Windows"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 45,
-      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
       "source": "The Hacker News"
     }
   ],
