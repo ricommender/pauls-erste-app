@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:20:29.824521+00:00",
+  "generated_at": "2026-11-22T11:27:52.489878+00:00",
   "items": [
     {
       "title": "CVE-2026-123890: Broadcom VMware vCenter – VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
@@ -126,6 +126,18 @@
       "technologies": [
         "VMware"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "source": "The Hacker News",
+      "published": "2026-11-22T05:03:41+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -513,15 +525,13 @@
       "cve": null
     },
     {
-      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-      "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
       "source": "The Hacker News",
-      "published": "2026-11-16T13:27:20+00:00",
-      "category": "Malware",
-      "technologies": [
-        "Windows"
-      ],
+      "published": "2026-11-22T05:06:55+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
       "severity": "medium",
       "kev": false,
       "cve": null
@@ -666,18 +676,6 @@
       "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
       "source": "The Hacker News",
       "published": "2026-11-16T14:00:00+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-      "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws. Government cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
-      "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-      "source": "The Hacker News",
-      "published": "2026-11-16T12:34:21+00:00",
       "category": "Schwachstellen",
       "technologies": [],
       "severity": "medium",
