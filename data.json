@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T19:17:37.559715+00:00",
+  "generated_at": "2026-11-22T01:20:29.824521+00:00",
   "items": [
     {
       "title": "CVE-2026-123890: Broadcom VMware vCenter – VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
@@ -126,6 +126,18 @@
       "technologies": [
         "VMware"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "source": "BleepingComputer",
+      "published": "2026-11-21T22:59:58+00:00",
+      "category": "Breaches",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -271,18 +283,6 @@
       "source": "BleepingComputer",
       "published": "2026-11-19T21:15:59+00:00",
       "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-      "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-      "source": "BleepingComputer",
-      "published": "2026-11-19T18:20:01+00:00",
-      "category": "Breaches",
       "technologies": [],
       "severity": "high",
       "kev": false,
