@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-21T15:11:23.568448+00:00",
-  "local_date": "21.11.2026",
+  "generated_at": "2026-11-22T15:09:14.279739+00:00",
+  "local_date": "22.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 11,
+  "new_24h": 5,
   "critical_24h": 0,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 11 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 5 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Assets und Versionen zu CVE-2026-123890 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
@@ -23,8 +23,8 @@
       ],
       "cve": "CVE-2026-123890",
       "kev": true,
-      "epss": 0.02985,
-      "priority_score": 117,
+      "epss": 0.03526,
+      "priority_score": 112,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft. Laut CISA KEV als ausgenutzt geführt.",
       "technical": "Betroffene Assets und Versionen zu CVE-2026-123890 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
       "source": "CISA KEV"
@@ -40,7 +40,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 84,
+      "priority_score": 79,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
@@ -56,7 +56,7 @@
       "cve": "CVE-2026-129448",
       "kev": false,
       "epss": 0.05459,
-      "priority_score": 76,
+      "priority_score": 71,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -72,7 +72,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 69,
+      "priority_score": 64,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -86,7 +86,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 67,
+      "priority_score": 63,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
@@ -102,7 +102,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 66,
+      "priority_score": 62,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -115,8 +115,8 @@
       "technologies": [],
       "cve": "CVE-2026-115560",
       "kev": false,
-      "epss": 0.71117,
-      "priority_score": 64,
+      "epss": 0.73107,
+      "priority_score": 61,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"

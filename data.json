@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:27:52.489878+00:00",
+  "generated_at": "2026-11-22T15:09:13.375633+00:00",
   "items": [
     {
       "title": "CVE-2026-123890: Broadcom VMware vCenter – VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
@@ -15,7 +15,7 @@
       "kev": true,
       "cve": "CVE-2026-123890",
       "vendor": "Broadcom",
-      "epss": 0.02985
+      "epss": 0.03526
     },
     {
       "title": "VMware patches vCenter zero-day exploited in attacks since September",
@@ -311,7 +311,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-115560",
-      "epss": 0.71117
+      "epss": 0.73107
     },
     {
       "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -384,7 +384,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-123007",
-      "epss": 0.29863
+      "epss": 0.27785
     },
     {
       "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
@@ -607,7 +607,7 @@
       "severity": "medium",
       "kev": false,
       "cve": "CVE-2026-126714",
-      "epss": 0.13104
+      "epss": 0.13297
     },
     {
       "title": "Everything Is a Web Application, Including Your Firewall",
