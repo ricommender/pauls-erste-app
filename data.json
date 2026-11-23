@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T01:44:54.721049+00:00",
+  "generated_at": "2026-11-23T12:47:13.889845+00:00",
   "items": [
     {
       "title": "CVE-2026-123890: Broadcom VMware vCenter – VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
@@ -50,11 +50,24 @@
       "epss": 0.09813
     },
     {
-      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-      "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "source": "The Hacker News",
+      "published": "2026-11-23T09:11:56+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "critical",
+      "kev": false,
+      "cve": "CVE-2026-131914",
+      "epss": 0.00614
+    },
+    {
+      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
       "source": "BleepingComputer",
-      "published": "2026-11-20T10:57:43+00:00",
+      "published": "2026-11-23T07:44:19+00:00",
       "category": "Schwachstellen",
       "technologies": [],
       "severity": "critical",
@@ -70,6 +83,20 @@
       "category": "Schwachstellen",
       "technologies": [],
       "severity": "critical",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+      "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+      "source": "BleepingComputer",
+      "published": "2026-11-23T09:11:15+00:00",
+      "category": "Schwachstellen",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "high",
       "kev": false,
       "cve": null
     },
@@ -112,6 +139,43 @@
       "technologies": [
         "VMware"
       ],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "source": "The Hacker News",
+      "published": "2026-11-23T12:41:04+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2026-84869",
+      "epss": 0.01173
+    },
+    {
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
+      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "source": "The Hacker News",
+      "published": "2026-11-23T12:28:09+00:00",
+      "category": "Breaches",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2026-134624"
+    },
+    {
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "source": "The Hacker News",
+      "published": "2026-11-23T09:04:08+00:00",
+      "category": "Malware",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -471,30 +535,6 @@
       "cve": null
     },
     {
-      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-      "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run. The code was built to",
-      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-      "source": "The Hacker News",
-      "published": "2026-11-17T07:12:13+00:00",
-      "category": "Angriffswege",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-      "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the protections",
-      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-      "source": "The Hacker News",
-      "published": "2026-11-17T05:00:34+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
       "summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way. Both PINs were set by the",
       "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
@@ -518,6 +558,18 @@
       "technologies": [
         "Microsoft 365"
       ],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers",
+      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "source": "The Hacker News",
+      "published": "2026-11-23T08:24:15+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
       "severity": "medium",
       "kev": false,
       "cve": null
@@ -657,53 +709,13 @@
       "cve": null
     },
     {
-      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-      "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled and",
-      "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
-      "source": "The Hacker News",
-      "published": "2026-11-17T06:29:27+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
-      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-      "source": "The Hacker News",
-      "published": "2026-11-16T14:00:00+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
-      "summary": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
+      "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+      "summary": "A Peruvian call center operator was sentenced to eight years in prison for stealing millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
       "source": "BleepingComputer",
-      "published": "2026-11-20T12:14:28+00:00",
+      "published": "2026-11-23T12:02:23+00:00",
       "category": "News",
-      "technologies": [
-        "Windows"
-      ],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-      "summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-      "source": "BleepingComputer",
-      "published": "2026-11-20T09:25:35+00:00",
-      "category": "News",
-      "technologies": [
-        "Windows"
-      ],
+      "technologies": [],
       "severity": "low",
       "kev": false,
       "cve": null
@@ -787,18 +799,6 @@
       "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
       "source": "The Hacker News",
       "published": "2026-11-17T11:20:18+00:00",
-      "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access. \"Before granting an app such",
-      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-      "source": "The Hacker News",
-      "published": "2026-11-17T11:07:31+00:00",
       "category": "News",
       "technologies": [],
       "severity": "low",
