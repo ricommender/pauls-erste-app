@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-11-22T15:09:14.279739+00:00",
-  "local_date": "22.11.2026",
+  "generated_at": "2026-11-23T19:05:30.953189+00:00",
+  "local_date": "23.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 5,
-  "critical_24h": 0,
+  "new_24h": 15,
+  "critical_24h": 2,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 5 neue Meldungen erfasst (0 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 15 neue Meldungen erfasst (2 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Assets und Versionen zu CVE-2026-123890 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
+    "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren."
   ],
   "highlights": [
@@ -24,24 +25,68 @@
       "cve": "CVE-2026-123890",
       "kev": true,
       "epss": 0.03526,
-      "priority_score": 112,
+      "priority_score": 106,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft. Laut CISA KEV als ausgenutzt geführt.",
       "technical": "Betroffene Assets und Versionen zu CVE-2026-123890 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
       "source": "CISA KEV"
     },
     {
-      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-      "published": "2026-11-20T00:26:25+00:00",
-      "severity": "critical",
+      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+      "published": "2026-11-23T15:10:48+00:00",
+      "severity": "high",
       "technologies": [
         "VMware"
       ],
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 79,
+      "priority_score": 75,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+      "published": "2026-11-23T09:11:15+00:00",
+      "severity": "high",
+      "technologies": [
+        "Windows"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 74,
+      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "published": "2026-11-23T09:11:56+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": "CVE-2026-131914",
+      "kev": false,
+      "epss": 0.00614,
+      "priority_score": 71,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+      "published": "2026-11-23T07:44:19+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 71,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
     },
@@ -56,7 +101,7 @@
       "cve": "CVE-2026-129448",
       "kev": false,
       "epss": 0.05459,
-      "priority_score": 71,
+      "priority_score": 65,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
@@ -72,52 +117,8 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 64,
+      "priority_score": 59,
       "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-      "published": "2026-11-20T10:57:43+00:00",
-      "severity": "critical",
-      "technologies": [],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 63,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-      "published": "2026-11-19T15:11:06+00:00",
-      "severity": "high",
-      "technologies": [
-        "VMware"
-      ],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 62,
-      "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-      "published": "2026-11-19T15:18:07+00:00",
-      "severity": "high",
-      "technologies": [],
-      "cve": "CVE-2026-115560",
-      "kev": false,
-      "epss": 0.73107,
-      "priority_score": 61,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
     }
