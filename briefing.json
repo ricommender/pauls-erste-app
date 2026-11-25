@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-24T18:44:47.229307+00:00",
-  "local_date": "24.11.2026",
+  "generated_at": "2026-11-25T17:53:02.435865+00:00",
+  "local_date": "25.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 21,
-  "critical_24h": 1,
+  "new_24h": 19,
+  "critical_24h": 2,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 21 neue Meldungen erfasst (1 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 19 neue Meldungen erfasst (2 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
     "Betroffene Assets und Versionen zu CVE-2026-123890 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
@@ -25,8 +25,8 @@
       ],
       "cve": "CVE-2026-123890",
       "kev": true,
-      "epss": 0.03526,
-      "priority_score": 101,
+      "epss": 0.05009,
+      "priority_score": 98,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft. Laut CISA KEV als ausgenutzt geführt.",
       "technical": "Betroffene Assets und Versionen zu CVE-2026-123890 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
       "source": "CISA KEV"
@@ -42,15 +42,15 @@
       "cve": "CVE-2026-123903",
       "kev": false,
       "epss": null,
-      "priority_score": 91,
+      "priority_score": 86,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
     },
     {
-      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
-      "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
-      "published": "2026-11-24T12:01:54+00:00",
+      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "published": "2026-11-25T11:51:48+00:00",
       "severity": "high",
       "technologies": [
         "Microsoft 365"
@@ -64,20 +64,48 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-      "published": "2026-11-23T19:42:20+00:00",
-      "severity": "high",
-      "technologies": [
-        "Azure"
-      ],
+      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "published": "2026-11-25T16:13:40+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 73,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+      "published": "2026-11-25T10:10:20+00:00",
+      "severity": "critical",
+      "technologies": [],
       "cve": null,
       "kev": false,
       "epss": null,
       "priority_score": 71,
-      "management": "Potenzielle Relevanz für Azure. Eigene Betroffenheit noch nicht geprüft.",
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
+    },
+    {
+      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "published": "2026-11-24T12:01:54+00:00",
+      "severity": "high",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 70,
+      "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
+      "source": "The Hacker News"
     },
     {
       "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
@@ -90,38 +118,10 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 70,
+      "priority_score": 66,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
       "source": "The Hacker News"
-    },
-    {
-      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-      "published": "2026-11-23T09:11:56+00:00",
-      "severity": "critical",
-      "technologies": [],
-      "cve": "CVE-2026-131914",
-      "kev": false,
-      "epss": 0.00614,
-      "priority_score": 66,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Radware discloses breach exposing customer cloud access keys",
-      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-      "published": "2026-11-24T17:49:05+00:00",
-      "severity": "high",
-      "technologies": [],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 57,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
-      "source": "BleepingComputer"
     }
   ],
   "source_status": [
