@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:56:27.787291+00:00",
+  "generated_at": "2026-11-26T17:37:32.795700+00:00",
   "items": [
     {
       "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
@@ -599,6 +599,18 @@
       "cve": null
     },
     {
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "source": "BleepingComputer",
+      "published": "2026-11-26T17:15:27+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
       "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
       "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
@@ -629,18 +641,6 @@
       "source": "The Hacker News",
       "published": "2026-11-25T06:37:06+00:00",
       "category": "Breaches",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-      "summary": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
-      "source": "BleepingComputer",
-      "published": "2026-11-24T18:59:52+00:00",
-      "category": "Angriffswege",
       "technologies": [],
       "severity": "medium",
       "kev": false,
