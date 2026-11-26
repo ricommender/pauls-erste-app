@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:35:10.764889+00:00",
+  "generated_at": "2026-11-26T16:56:27.787291+00:00",
   "items": [
     {
       "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
@@ -13,7 +13,8 @@
       ],
       "severity": "critical",
       "kev": false,
-      "cve": "CVE-2026-123903"
+      "cve": "CVE-2026-123903",
+      "epss": 0.00614
     },
     {
       "title": "CVE-2026-123890: Broadcom VMware vCenter – VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
@@ -64,6 +65,18 @@
       "epss": 0.00976
     },
     {
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "source": "BleepingComputer",
+      "published": "2026-11-26T15:23:28+00:00",
+      "category": "Malware",
+      "technologies": [],
+      "severity": "critical",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
@@ -99,18 +112,6 @@
       "kev": false,
       "cve": "CVE-2026-131914",
       "epss": 0.04292
-    },
-    {
-      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-      "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
-      "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-      "source": "The Hacker News",
-      "published": "2026-11-19T14:33:06+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "critical",
-      "kev": false,
-      "cve": null
     },
     {
       "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
@@ -184,18 +185,54 @@
       "cve": null
     },
     {
-      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-      "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
-      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-      "source": "The Hacker News",
-      "published": "2026-11-19T15:11:06+00:00",
-      "category": "Schwachstellen",
-      "technologies": [
-        "VMware"
-      ],
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "source": "BleepingComputer",
+      "published": "2026-11-26T11:50:17+00:00",
+      "category": "Malware",
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
+    },
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "source": "The Hacker News",
+      "published": "2026-11-26T10:57:25+00:00",
+      "category": "Breaches",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "source": "The Hacker News",
+      "published": "2026-11-26T07:02:34+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2026-136716",
+      "epss": 0.01014
+    },
+    {
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "source": "The Hacker News",
+      "published": "2026-11-26T06:44:46+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": "CVE-2026-133275",
+      "epss": 0.00771
     },
     {
       "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
@@ -279,7 +316,8 @@
       "technologies": [],
       "severity": "high",
       "kev": false,
-      "cve": "CVE-2026-132165"
+      "cve": "CVE-2026-132165",
+      "epss": 0.11053
     },
     {
       "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
@@ -323,18 +361,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
       "source": "BleepingComputer",
       "published": "2026-11-24T21:37:30+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Radware discloses breach exposing customer cloud access keys",
-      "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-      "source": "BleepingComputer",
-      "published": "2026-11-24T17:49:05+00:00",
       "category": "Breaches",
       "technologies": [],
       "severity": "high",
@@ -463,7 +489,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-129975",
-      "epss": 0.04641
+      "epss": 0.04764
     },
     {
       "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
@@ -488,7 +514,7 @@
       "severity": "high",
       "kev": false,
       "cve": "CVE-2026-23871",
-      "epss": 0.00253
+      "epss": 0.0048
     },
     {
       "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
@@ -516,27 +542,30 @@
       "epss": 0.01116
     },
     {
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
-      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user. How an",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
       "source": "The Hacker News",
-      "published": "2026-11-19T15:18:07+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
+      "published": "2026-11-26T10:57:55+00:00",
+      "category": "Angriffswege",
+      "technologies": [
+        "Microsoft 365"
+      ],
+      "severity": "medium",
       "kev": false,
-      "cve": "CVE-2026-115560",
-      "epss": 0.86584
+      "cve": null
     },
     {
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said. \"The investigation is ongoing, but at this time we",
-      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher Kush Pandya said in a technical write-up. \"In the versions we analyzed, building or running a",
+      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
       "source": "The Hacker News",
-      "published": "2026-11-19T09:31:26+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
+      "published": "2026-11-26T03:48:52+00:00",
+      "category": "Malware",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "medium",
       "kev": false,
       "cve": null
     },
@@ -565,6 +594,18 @@
       "technologies": [
         "Azure"
       ],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "source": "The Hacker News",
+      "published": "2026-11-26T15:13:41+00:00",
+      "category": "Malware",
+      "technologies": [],
       "severity": "medium",
       "kev": false,
       "cve": null
@@ -690,32 +731,6 @@
       "cve": null
     },
     {
-      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-      "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated",
-      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-      "source": "The Hacker News",
-      "published": "2026-11-19T16:59:56+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": "CVE-2026-126714",
-      "epss": 0.33772
-    },
-    {
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
-      "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "source": "The Hacker News",
-      "published": "2026-11-19T11:52:23+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "medium",
-      "kev": false,
-      "cve": "CVE-2026-109618",
-      "epss": 0.45083
-    },
-    {
       "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
       "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
@@ -774,18 +789,6 @@
       "source": "BleepingComputer",
       "published": "2026-11-24T20:21:20+00:00",
       "category": "News",
-      "technologies": [],
-      "severity": "low",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
-      "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-      "source": "BleepingComputer",
-      "published": "2026-11-24T16:30:19+00:00",
-      "category": "Breaches",
       "technologies": [],
       "severity": "low",
       "kev": false,
