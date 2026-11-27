@@ -1,36 +1,19 @@
 {
-  "generated_at": "2026-11-26T17:37:33.672874+00:00",
-  "local_date": "26.11.2026",
+  "generated_at": "2026-11-27T17:19:50.427633+00:00",
+  "local_date": "27.11.2026",
   "mode": "rules",
   "lookback_days": 7,
-  "new_24h": 12,
-  "critical_24h": 1,
+  "new_24h": 18,
+  "critical_24h": 2,
   "kev_24h": 0,
-  "management": "In den vergangenen 24 Stunden wurden 12 neue Meldungen erfasst (1 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
+  "management": "In den vergangenen 24 Stunden wurden 18 neue Meldungen erfasst (2 kritisch eingestuft, 0 neue CISA-KEV-Einträge). Die wichtigsten Risiken der letzten sieben Tage sind unten priorisiert. Ein tatsächlicher Einfluss auf die eigene Infrastruktur ist ohne Asset-Abgleich nicht belegt.",
   "technical": "Priorität haben nachweislich ausgenutzte Schwachstellen (CISA KEV), passende Hersteller/Produkte und frische Sicherheitsmeldungen. Betroffene Versionen, Exposure, Patch-Stand und Detection anhand von Primärquellen prüfen.",
   "actions": [
-    "Betroffene Assets und Versionen zu CVE-2026-123890 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
     "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-    "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
+    "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
     "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben."
   ],
   "highlights": [
-    {
-      "title": "CVE-2026-123890: Broadcom VMware vCenter – VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "published": "2026-11-20T12:00:00+00:00",
-      "severity": "critical",
-      "technologies": [
-        "VMware"
-      ],
-      "cve": "CVE-2026-123890",
-      "kev": true,
-      "epss": 0.05009,
-      "priority_score": 95,
-      "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft. Laut CISA KEV als ausgenutzt geführt.",
-      "technical": "Betroffene Assets und Versionen zu CVE-2026-123890 inventarisieren, Hersteller-Advisory lesen und Patches/Mitigations priorisieren.",
-      "source": "CISA KEV"
-    },
     {
       "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
       "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
@@ -41,24 +24,38 @@
       ],
       "cve": "CVE-2026-123903",
       "kev": false,
-      "epss": 0.00614,
-      "priority_score": 82,
+      "epss": 0.02446,
+      "priority_score": 77,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "The Hacker News"
     },
     {
-      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-      "published": "2026-11-26T15:23:28+00:00",
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "published": "2026-11-27T10:10:15+00:00",
       "severity": "critical",
       "technologies": [],
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 73,
+      "priority_score": 72,
       "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "EDR- und E-Mail-Schutzstatus prüfen; veröffentlichte IOCs nur aus verifizierten Quellen für die Suche verwenden.",
+      "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "published": "2026-11-27T08:06:58+00:00",
+      "severity": "critical",
+      "technologies": [],
+      "cve": "CVE-2026-99362",
+      "kev": false,
+      "epss": 0.00755,
+      "priority_score": 71,
+      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
       "source": "BleepingComputer"
     },
     {
@@ -72,24 +69,10 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 70,
+      "priority_score": 65,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
-    },
-    {
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-      "published": "2026-11-25T16:13:40+00:00",
-      "severity": "critical",
-      "technologies": [],
-      "cve": null,
-      "kev": false,
-      "epss": null,
-      "priority_score": 68,
-      "management": "Potenzielle Relevanz für Übergreifend. Eigene Betroffenheit noch nicht geprüft.",
-      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
-      "source": "BleepingComputer"
     },
     {
       "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
@@ -102,10 +85,26 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 65,
+      "priority_score": 61,
       "management": "Potenzielle Relevanz für Microsoft 365. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Relevanz für Produkte, Assets und Dienstleister prüfen und bei Bedarf an verantwortliche Teams weitergeben.",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "published": "2026-11-27T09:08:16+00:00",
+      "severity": "medium",
+      "technologies": [
+        "Windows"
+      ],
+      "cve": null,
+      "kev": false,
+      "epss": null,
+      "priority_score": 58,
+      "management": "Potenzielle Relevanz für Windows. Eigene Betroffenheit noch nicht geprüft.",
+      "technical": "Betroffene Versionen, Exponierung und Patch-Status prüfen; technische Maßnahmen anhand des Hersteller-Advisory validieren.",
+      "source": "BleepingComputer"
     },
     {
       "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
@@ -118,7 +117,7 @@
       "cve": null,
       "kev": false,
       "epss": null,
-      "priority_score": 61,
+      "priority_score": 56,
       "management": "Potenzielle Relevanz für VMware. Eigene Betroffenheit noch nicht geprüft.",
       "technical": "Vertrags-/Lieferantenbezug, eigene Betroffenheit und mögliche Datenabflüsse prüfen; Identitäts- und Audit-Logs auswerten.",
       "source": "The Hacker News"
