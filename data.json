@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:44:39.610451+00:00",
+  "generated_at": "2026-11-27T12:25:02.488435+00:00",
   "items": [
     {
       "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
@@ -49,20 +49,29 @@
       "epss": 0.00467
     },
     {
-      "title": "CVE-2026-96951: Microsoft Windows – Microsoft Windows Command Injection Vulnerability",
-      "summary": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network. Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavail",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "source": "CISA KEV",
-      "published": "2026-10-13T12:00:00+00:00",
-      "category": "Schwachstellen",
-      "technologies": [
-        "Windows"
-      ],
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T10:10:15+00:00",
+      "category": "Breaches",
+      "technologies": [],
       "severity": "critical",
-      "kev": true,
-      "cve": "CVE-2026-96951",
-      "vendor": "Microsoft",
-      "epss": 0.00976
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T08:06:58+00:00",
+      "category": "Schwachstellen",
+      "technologies": [],
+      "severity": "critical",
+      "kev": false,
+      "cve": "CVE-2026-99362",
+      "epss": 0.00755
     },
     {
       "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
@@ -82,18 +91,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
       "source": "BleepingComputer",
       "published": "2026-11-25T16:13:40+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "critical",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-      "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-      "source": "BleepingComputer",
-      "published": "2026-11-25T10:10:20+00:00",
       "category": "Schwachstellen",
       "technologies": [],
       "severity": "critical",
@@ -171,15 +168,25 @@
       "epss": 0.24159
     },
     {
-      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-      "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
-      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
       "source": "The Hacker News",
-      "published": "2026-11-20T05:30:01+00:00",
+      "published": "2026-11-27T06:04:20+00:00",
+      "category": "Breaches",
+      "technologies": [],
+      "severity": "high",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "source": "The Hacker News",
+      "published": "2026-11-27T05:48:20+00:00",
       "category": "Schwachstellen",
-      "technologies": [
-        "Windows"
-      ],
+      "technologies": [],
       "severity": "high",
       "kev": false,
       "cve": null
@@ -271,18 +278,6 @@
       "cve": null
     },
     {
-      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-      "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-      "source": "BleepingComputer",
-      "published": "2026-11-25T15:00:00+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
       "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
       "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
       "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
@@ -325,30 +320,6 @@
       "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
       "source": "The Hacker News",
       "published": "2026-11-25T09:06:59+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Microsoft confirms authentication issues after November updates",
-      "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-      "source": "BleepingComputer",
-      "published": "2026-11-25T09:02:57+00:00",
-      "category": "Schwachstellen",
-      "technologies": [],
-      "severity": "high",
-      "kev": false,
-      "cve": null
-    },
-    {
-      "title": "Hackers reportedly breached CIA intelligence analysis system",
-      "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-      "source": "BleepingComputer",
-      "published": "2026-11-25T07:45:03+00:00",
       "category": "Breaches",
       "technologies": [],
       "severity": "high",
@@ -517,17 +488,18 @@
       "cve": null
     },
     {
-      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-      "source": "The Hacker News",
-      "published": "2026-11-20T10:32:50+00:00",
-      "category": "Breaches",
-      "technologies": [],
-      "severity": "high",
+      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "summary": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T09:08:16+00:00",
+      "category": "Schwachstellen",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "medium",
       "kev": false,
-      "cve": "CVE-2026-76466",
-      "epss": 0.01116
+      "cve": null
     },
     {
       "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
@@ -587,6 +559,30 @@
       "cve": null
     },
     {
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together the week before, cleans them up, and presents a picture of a program that is,",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "source": "The Hacker News",
+      "published": "2026-11-27T10:32:18+00:00",
+      "category": "Angriffswege",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "source": "The Hacker News",
+      "published": "2026-11-27T09:29:30+00:00",
+      "category": "Malware",
+      "technologies": [],
+      "severity": "medium",
+      "kev": false,
+      "cve": null
+    },
+    {
       "title": "Fake paid expert interviews impersonate brands to steal Google logins",
       "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
       "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
@@ -600,7 +596,7 @@
     },
     {
       "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-      "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
+      "summary": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025. \"These are real developers, not throwaway accounts,\" Apiiro researcher Shmulik Cohen said. \"6,541 of the 7,609 repos (86%) belong",
       "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
       "source": "The Hacker News",
       "published": "2026-11-26T15:13:41+00:00",
@@ -695,14 +691,16 @@
       "cve": null
     },
     {
-      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-      "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
-      "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-      "source": "The Hacker News",
-      "published": "2026-11-20T07:11:39+00:00",
-      "category": "Malware",
-      "technologies": [],
-      "severity": "medium",
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T11:18:36+00:00",
+      "category": "News",
+      "technologies": [
+        "Windows"
+      ],
+      "severity": "low",
       "kev": false,
       "cve": null
     },
@@ -721,15 +719,13 @@
       "cve": null
     },
     {
-      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-      "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+      "title": "SAP confirms security incident after suspicious GitHub activity",
+      "summary": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
       "source": "BleepingComputer",
-      "published": "2026-11-25T11:16:32+00:00",
+      "published": "2026-11-27T09:56:36+00:00",
       "category": "News",
-      "technologies": [
-        "Microsoft 365"
-      ],
+      "technologies": [],
       "severity": "low",
       "kev": false,
       "cve": null
